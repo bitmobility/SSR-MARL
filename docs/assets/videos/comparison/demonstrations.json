@@ -1,0 +1,2559 @@
+{
+  "description": "Outcome-selected illustrative demonstrations, not a success-rate sample. Some cases differ between methods.",
+  "playback_speed": 1,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "success_hold_seconds": 1,
+  "failure_hold_seconds": 3,
+  "videos": [
+    {
+      "method": "Ours",
+      "src": "ssr-marl.mp4",
+      "duration_seconds": 122.26666666666667,
+      "chapters": [
+        {
+          "method": "Ours",
+          "order": 1,
+          "formation": "bar",
+          "path": "line",
+          "case_id": "seen_bar_line_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 9.92999999999998,
+          "video_seconds": 10.933333333333334,
+          "frames": 328,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "line",
+            "case_id": "seen_bar_line_000",
+            "repeat_index": 0,
+            "episode_seed": 608655814,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2571795211195602,
+                0.9534984227719483,
+                0.07846069989172699
+              ],
+              [
+                1.2828499395014459,
+                1.195773723454384,
+                0.058079464272331266
+              ]
+            ],
+            "initial_lateral_offset": 0.13967179467386964,
+            "initial_heading_offset": -0.0777734394815477
+          },
+          "metrics": {
+            "episode_steps": 100,
+            "env_return": 38.13601529701637,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.0009112761700378356,
+            "attachment_max": 0.0016768788154854356,
+            "path_rmse": 0.05170924967766108,
+            "path_max": 0.12319793209696915,
+            "heading_rmse": 0.16717555908002,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 9.92999999999998,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0009757601843557887,
+            "cbf_correction_max": 0.022526499370811547
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 0.0
+        },
+        {
+          "method": "Ours",
+          "order": 2,
+          "formation": "triangle",
+          "path": "line",
+          "case_id": "seen_triangle_line_002",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 9.519999999999982,
+          "video_seconds": 10.533333333333333,
+          "frames": 316,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "line",
+            "case_id": "seen_triangle_line_002",
+            "repeat_index": 2,
+            "episode_seed": 546929650,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.053729132446324,
+                1.0726104153492475,
+                0.027726414026204443
+              ],
+              [
+                0.9271942102794974,
+                0.814318763743419,
+                0.042337291016086104
+              ],
+              [
+                1.1397394616690877,
+                0.9936911227942825,
+                0.05054241224006974
+              ]
+            ],
+            "initial_lateral_offset": 0.179420642897056,
+            "initial_heading_offset": 0.04585097353858257
+          },
+          "metrics": {
+            "episode_steps": 96,
+            "env_return": 38.1789896352728,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.0008580105700440843,
+            "attachment_max": 0.0025603184820742956,
+            "path_rmse": 0.09054164288179506,
+            "path_max": 0.1855609044562446,
+            "heading_rmse": 0.07615222037808381,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 9.519999999999982,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.005923575993866948,
+            "cbf_correction_max": 0.007901852068349013
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 10.933333333333334
+        },
+        {
+          "method": "Ours",
+          "order": 3,
+          "formation": "square",
+          "path": "line",
+          "case_id": "seen_square_line_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 9.589999999999982,
+          "video_seconds": 10.6,
+          "frames": 318,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "line",
+            "case_id": "seen_square_line_000",
+            "repeat_index": 0,
+            "episode_seed": 608655814,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2571795211195602,
+                0.9534984227719483,
+                0.07846069989172699
+              ],
+              [
+                1.2828499395014459,
+                1.195773723454384,
+                0.058079464272331266
+              ],
+              [
+                0.7688794660699318,
+                0.9396050244189869,
+                0.039588224562397065
+              ],
+              [
+                1.0466594060445231,
+                1.0649583237502669,
+                0.06997101589671448
+              ]
+            ],
+            "initial_lateral_offset": 0.13967179467386964,
+            "initial_heading_offset": -0.0777734394815477
+          },
+          "metrics": {
+            "episode_steps": 96,
+            "env_return": 37.89719995427053,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.0012512458510458263,
+            "attachment_max": 0.00252339546095224,
+            "path_rmse": 0.12795703350819657,
+            "path_max": 0.14704565068594855,
+            "heading_rmse": 0.03249061319040934,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 9.589999999999982,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.00516947403114687,
+            "cbf_correction_max": 0.010021061046281116
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 21.46666666666667
+        },
+        {
+          "method": "Ours",
+          "order": 4,
+          "formation": "bar",
+          "path": "left_turn",
+          "case_id": "seen_bar_left_turn_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 10.719999999999978,
+          "video_seconds": 11.733333333333333,
+          "frames": 352,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "left_turn",
+            "case_id": "seen_bar_left_turn_000",
+            "repeat_index": 0,
+            "episode_seed": 1502491384,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1280685825624093,
+                1.0328321661724822,
+                0.0711395330832598
+              ],
+              [
+                1.1345181511262021,
+                0.8500968215869091,
+                0.07621381631971243
+              ]
+            ],
+            "initial_lateral_offset": -0.1883385419889636,
+            "initial_heading_offset": -0.013134149708516549
+          },
+          "metrics": {
+            "episode_steps": 108,
+            "env_return": 40.65381676228161,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.0029905314164590194,
+            "attachment_max": 0.0043954457951095195,
+            "path_rmse": 0.06695045181513239,
+            "path_max": 0.18575514635748736,
+            "heading_rmse": 0.11517148395016862,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 10.719999999999978,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.005255422686493309,
+            "cbf_correction_max": 0.009844179522351707
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 32.06666666666667
+        },
+        {
+          "method": "Ours",
+          "order": 5,
+          "formation": "triangle",
+          "path": "left_turn",
+          "case_id": "seen_triangle_left_turn_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 10.579999999999979,
+          "video_seconds": 11.6,
+          "frames": 348,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "left_turn",
+            "case_id": "seen_triangle_left_turn_000",
+            "repeat_index": 0,
+            "episode_seed": 1502491384,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1280685825624093,
+                1.0328321661724822,
+                0.0711395330832598
+              ],
+              [
+                1.1345181511262021,
+                0.8500968215869091,
+                0.07621381631971243
+              ],
+              [
+                1.1886472173606308,
+                1.0789735836564396,
+                0.03730134297275095
+              ]
+            ],
+            "initial_lateral_offset": -0.1883385419889636,
+            "initial_heading_offset": -0.013134149708516549
+          },
+          "metrics": {
+            "episode_steps": 106,
+            "env_return": 39.61579991081097,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.005843154729908645,
+            "attachment_max": 0.009183828727881085,
+            "path_rmse": 0.1450321440791483,
+            "path_max": 0.21031238434064964,
+            "heading_rmse": 0.21788508827682432,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 10.579999999999979,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.008856769496397061,
+            "cbf_correction_max": 0.012734281882514506
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 43.800000000000004
+        },
+        {
+          "method": "Ours",
+          "order": 6,
+          "formation": "square",
+          "path": "left_turn",
+          "case_id": "seen_square_left_turn_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 10.26999999999998,
+          "video_seconds": 11.3,
+          "frames": 339,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "left_turn",
+            "case_id": "seen_square_left_turn_000",
+            "repeat_index": 0,
+            "episode_seed": 1502491384,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1280685825624093,
+                1.0328321661724822,
+                0.0711395330832598
+              ],
+              [
+                1.1345181511262021,
+                0.8500968215869091,
+                0.07621381631971243
+              ],
+              [
+                1.1886472173606308,
+                1.0789735836564396,
+                0.03730134297275095
+              ],
+              [
+                1.032819810170154,
+                0.9270847438203974,
+                0.02864552233722797
+              ]
+            ],
+            "initial_lateral_offset": -0.1883385419889636,
+            "initial_heading_offset": -0.013134149708516549
+          },
+          "metrics": {
+            "episode_steps": 103,
+            "env_return": 38.23509555987148,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.004930788947786233,
+            "attachment_max": 0.009471689900103912,
+            "path_rmse": 0.21062418686688772,
+            "path_max": 0.2950703880154549,
+            "heading_rmse": 0.3093361638038532,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 10.26999999999998,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.007150660455657475,
+            "cbf_correction_max": 0.012303107489732632
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 55.400000000000006
+        },
+        {
+          "method": "Ours",
+          "order": 7,
+          "formation": "bar",
+          "path": "sine",
+          "case_id": "seen_bar_sine_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 17.749999999999982,
+          "video_seconds": 18.766666666666666,
+          "frames": 563,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "sine",
+            "case_id": "seen_bar_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 178,
+            "env_return": 54.81362382553658,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.0012562078820597784,
+            "attachment_max": 0.003726138407542956,
+            "path_rmse": 0.06770678720795137,
+            "path_max": 0.16695855373919422,
+            "heading_rmse": 0.2602604406755974,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 17.749999999999982,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.004913227282726494,
+            "cbf_correction_max": 0.022565415694759818
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 66.7
+        },
+        {
+          "method": "Ours",
+          "order": 8,
+          "formation": "triangle",
+          "path": "sine",
+          "case_id": "seen_triangle_sine_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 17.579999999999977,
+          "video_seconds": 18.6,
+          "frames": 558,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "sine",
+            "case_id": "seen_triangle_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ],
+              [
+                1.1691299432956284,
+                1.1915052278172449,
+                0.051141925056407925
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 176,
+            "env_return": 53.899662558811656,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.005343231836678935,
+            "attachment_max": 0.014290028447487545,
+            "path_rmse": 0.12187639928019371,
+            "path_max": 0.23347877778799403,
+            "heading_rmse": 0.281969355880626,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 17.579999999999977,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.007129577526654951,
+            "cbf_correction_max": 0.013313802815251538
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 85.46666666666667
+        },
+        {
+          "method": "Ours",
+          "order": 9,
+          "formation": "square",
+          "path": "sine",
+          "case_id": "seen_square_sine_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 17.17999999999997,
+          "video_seconds": 18.2,
+          "frames": 546,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "sine",
+            "case_id": "seen_square_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ],
+              [
+                1.1691299432956284,
+                1.1915052278172449,
+                0.051141925056407925
+              ],
+              [
+                1.199791897348187,
+                0.8196318125998076,
+                0.044636406969891906
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 172,
+            "env_return": 52.988259913240405,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.004949076840174286,
+            "attachment_max": 0.013805374692799981,
+            "path_rmse": 0.1590344238497665,
+            "path_max": 0.2919184020853425,
+            "heading_rmse": 0.31148354781502396,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 17.17999999999997,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.006442760993255705,
+            "cbf_correction_max": 0.014658800621248153
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 104.06666666666666
+        }
+      ]
+    },
+    {
+      "method": "IPPO",
+      "src": "ippo.mp4",
+      "duration_seconds": 209.16666666666669,
+      "chapters": [
+        {
+          "method": "IPPO",
+          "order": 1,
+          "formation": "bar",
+          "path": "line",
+          "case_id": "seen_bar_line_000",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 17.849999999999984,
+          "video_seconds": 18.866666666666667,
+          "frames": 566,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "9f616c8838d6a710d3184648e008c50bd17caf627e436ea1b4809d92a5a3e435",
+          "configuration_sha256": "a40ff505c23c575fbb62164f9e247bd18c825058fc9f562ae57b9c27fd0b716c",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "line",
+            "case_id": "seen_bar_line_000",
+            "repeat_index": 0,
+            "episode_seed": 608655814,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2571795211195602,
+                0.9534984227719483,
+                0.07846069989172699
+              ],
+              [
+                1.2828499395014459,
+                1.195773723454384,
+                0.058079464272331266
+              ]
+            ],
+            "initial_lateral_offset": 0.13967179467386964,
+            "initial_heading_offset": -0.0777734394815477
+          },
+          "metrics": {
+            "episode_steps": 179,
+            "env_return": 36.38822414829764,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.005808589227594981,
+            "attachment_max": 0.01108753213610496,
+            "path_rmse": 0.11448990856732559,
+            "path_max": 0.23397239856824353,
+            "heading_rmse": 0.20969065114678856,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 17.849999999999984,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_ippo/mixed_seed12_20261023_011124_000281/checkpoints/actor.pt",
+          "start_seconds": 0.0
+        },
+        {
+          "method": "IPPO",
+          "order": 2,
+          "formation": "triangle",
+          "path": "line",
+          "case_id": "seen_triangle_line_002",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 13.07999999999997,
+          "video_seconds": 14.1,
+          "frames": 423,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "9f616c8838d6a710d3184648e008c50bd17caf627e436ea1b4809d92a5a3e435",
+          "configuration_sha256": "a40ff505c23c575fbb62164f9e247bd18c825058fc9f562ae57b9c27fd0b716c",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "line",
+            "case_id": "seen_triangle_line_002",
+            "repeat_index": 2,
+            "episode_seed": 546929650,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.053729132446324,
+                1.0726104153492475,
+                0.027726414026204443
+              ],
+              [
+                0.9271942102794974,
+                0.814318763743419,
+                0.042337291016086104
+              ],
+              [
+                1.1397394616690877,
+                0.9936911227942825,
+                0.05054241224006974
+              ]
+            ],
+            "initial_lateral_offset": 0.179420642897056,
+            "initial_heading_offset": 0.04585097353858257
+          },
+          "metrics": {
+            "episode_steps": 131,
+            "env_return": 36.905301013858264,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.015647274032306802,
+            "attachment_max": 0.03150775194895836,
+            "path_rmse": 0.07973871681174281,
+            "path_max": 0.1928821339011971,
+            "heading_rmse": 0.28897061362249576,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 13.07999999999997,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_ippo/mixed_seed12_20261023_011124_000281/checkpoints/actor.pt",
+          "start_seconds": 18.866666666666667
+        },
+        {
+          "method": "IPPO",
+          "order": 3,
+          "formation": "square",
+          "path": "line",
+          "case_id": "seen_square_line_000",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 13.579999999999968,
+          "video_seconds": 14.6,
+          "frames": 438,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "9f616c8838d6a710d3184648e008c50bd17caf627e436ea1b4809d92a5a3e435",
+          "configuration_sha256": "a40ff505c23c575fbb62164f9e247bd18c825058fc9f562ae57b9c27fd0b716c",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "line",
+            "case_id": "seen_square_line_000",
+            "repeat_index": 0,
+            "episode_seed": 608655814,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2571795211195602,
+                0.9534984227719483,
+                0.07846069989172699
+              ],
+              [
+                1.2828499395014459,
+                1.195773723454384,
+                0.058079464272331266
+              ],
+              [
+                0.7688794660699318,
+                0.9396050244189869,
+                0.039588224562397065
+              ],
+              [
+                1.0466594060445231,
+                1.0649583237502669,
+                0.06997101589671448
+              ]
+            ],
+            "initial_lateral_offset": 0.13967179467386964,
+            "initial_heading_offset": -0.0777734394815477
+          },
+          "metrics": {
+            "episode_steps": 136,
+            "env_return": 36.92830054631766,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.015395949725142119,
+            "attachment_max": 0.03314566890904228,
+            "path_rmse": 0.0761958216128433,
+            "path_max": 0.15357367932112836,
+            "heading_rmse": 0.2796487535732531,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 13.579999999999968,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_ippo/mixed_seed12_20261023_011124_000281/checkpoints/actor.pt",
+          "start_seconds": 32.96666666666667
+        },
+        {
+          "method": "IPPO",
+          "order": 4,
+          "formation": "bar",
+          "path": "left_turn",
+          "case_id": "seen_bar_left_turn_000",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 13.879999999999967,
+          "video_seconds": 14.9,
+          "frames": 447,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "9f616c8838d6a710d3184648e008c50bd17caf627e436ea1b4809d92a5a3e435",
+          "configuration_sha256": "a40ff505c23c575fbb62164f9e247bd18c825058fc9f562ae57b9c27fd0b716c",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "left_turn",
+            "case_id": "seen_bar_left_turn_000",
+            "repeat_index": 0,
+            "episode_seed": 1502491384,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1280685825624093,
+                1.0328321661724822,
+                0.0711395330832598
+              ],
+              [
+                1.1345181511262021,
+                0.8500968215869091,
+                0.07621381631971243
+              ]
+            ],
+            "initial_lateral_offset": -0.1883385419889636,
+            "initial_heading_offset": -0.013134149708516549
+          },
+          "metrics": {
+            "episode_steps": 139,
+            "env_return": 34.91509512789708,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.008848714097619744,
+            "attachment_max": 0.023318186781838005,
+            "path_rmse": 0.24526690204363,
+            "path_max": 0.5303374536993913,
+            "heading_rmse": 0.4367029256232533,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 13.879999999999967,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_ippo/mixed_seed12_20261023_011124_000281/checkpoints/actor.pt",
+          "start_seconds": 47.56666666666667
+        },
+        {
+          "method": "IPPO",
+          "order": 5,
+          "formation": "triangle",
+          "path": "left_turn",
+          "case_id": "seen_triangle_left_turn_000",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 13.139999999999969,
+          "video_seconds": 14.166666666666666,
+          "frames": 425,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "9f616c8838d6a710d3184648e008c50bd17caf627e436ea1b4809d92a5a3e435",
+          "configuration_sha256": "a40ff505c23c575fbb62164f9e247bd18c825058fc9f562ae57b9c27fd0b716c",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "left_turn",
+            "case_id": "seen_triangle_left_turn_000",
+            "repeat_index": 0,
+            "episode_seed": 1502491384,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1280685825624093,
+                1.0328321661724822,
+                0.0711395330832598
+              ],
+              [
+                1.1345181511262021,
+                0.8500968215869091,
+                0.07621381631971243
+              ],
+              [
+                1.1886472173606308,
+                1.0789735836564396,
+                0.03730134297275095
+              ]
+            ],
+            "initial_lateral_offset": -0.1883385419889636,
+            "initial_heading_offset": -0.013134149708516549
+          },
+          "metrics": {
+            "episode_steps": 132,
+            "env_return": 34.05337519498961,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.017353443253183828,
+            "attachment_max": 0.04739574199246105,
+            "path_rmse": 0.27811680460184,
+            "path_max": 0.564410641926895,
+            "heading_rmse": 0.4604838986144228,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 13.139999999999969,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_ippo/mixed_seed12_20261023_011124_000281/checkpoints/actor.pt",
+          "start_seconds": 62.46666666666667
+        },
+        {
+          "method": "IPPO",
+          "order": 6,
+          "formation": "square",
+          "path": "left_turn",
+          "case_id": "seen_square_left_turn_000",
+          "training_seed": 12,
+          "termination_reason": "no_forward_reference",
+          "episode_seconds": 6.659999999999992,
+          "video_seconds": 9.666666666666666,
+          "frames": 290,
+          "matched_across_methods": false,
+          "label": "FAILED: No valid forward reference point",
+          "checkpoint_sha256": "9f616c8838d6a710d3184648e008c50bd17caf627e436ea1b4809d92a5a3e435",
+          "configuration_sha256": "a40ff505c23c575fbb62164f9e247bd18c825058fc9f562ae57b9c27fd0b716c",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "left_turn",
+            "case_id": "seen_square_left_turn_000",
+            "repeat_index": 0,
+            "episode_seed": 1502491384,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1280685825624093,
+                1.0328321661724822,
+                0.0711395330832598
+              ],
+              [
+                1.1345181511262021,
+                0.8500968215869091,
+                0.07621381631971243
+              ],
+              [
+                1.1886472173606308,
+                1.0789735836564396,
+                0.03730134297275095
+              ],
+              [
+                1.032819810170154,
+                0.9270847438203974,
+                0.02864552233722797
+              ]
+            ],
+            "initial_lateral_offset": -0.1883385419889636,
+            "initial_heading_offset": -0.013134149708516549
+          },
+          "metrics": {
+            "episode_steps": 67,
+            "env_return": -14.584051643711819,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.02582334108938717,
+            "attachment_max": 0.0601204126944299,
+            "path_rmse": 0.3452412396631551,
+            "path_max": 0.84055880943132,
+            "heading_rmse": 0.6040020980911639,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 1,
+            "tracking_failure": 1,
+            "numerical_failure": 0,
+            "duration": 6.659999999999992,
+            "termination_reason": "no_forward_reference",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_ippo/mixed_seed12_20261023_011124_000281/checkpoints/actor.pt",
+          "start_seconds": 76.63333333333334
+        },
+        {
+          "method": "IPPO",
+          "order": 7,
+          "formation": "bar",
+          "path": "sine",
+          "case_id": "seen_bar_sine_001",
+          "training_seed": 12,
+          "termination_reason": "path_deviation",
+          "episode_seconds": 40.3500000000003,
+          "video_seconds": 43.36666666666667,
+          "frames": 1301,
+          "matched_across_methods": false,
+          "label": "FAILED: Path deviation limit exceeded",
+          "checkpoint_sha256": "9f616c8838d6a710d3184648e008c50bd17caf627e436ea1b4809d92a5a3e435",
+          "configuration_sha256": "a40ff505c23c575fbb62164f9e247bd18c825058fc9f562ae57b9c27fd0b716c",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "sine",
+            "case_id": "seen_bar_sine_001",
+            "repeat_index": 1,
+            "episode_seed": 2924202213,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1030985558600852,
+                1.0023820115872204,
+                0.04660459438537205
+              ],
+              [
+                0.7716137496858084,
+                0.8313215090724964,
+                0.03844673476437076
+              ]
+            ],
+            "initial_lateral_offset": -0.12383717080504804,
+            "initial_heading_offset": 0.07752847627832231
+          },
+          "metrics": {
+            "episode_steps": 404,
+            "env_return": -38.81978084773354,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.006248874105598096,
+            "attachment_max": 0.018956670833753804,
+            "path_rmse": 0.31894050117820666,
+            "path_max": 1.0010470896117258,
+            "heading_rmse": 0.11622322141219756,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 1,
+            "no_forward_reference": 0,
+            "tracking_failure": 1,
+            "numerical_failure": 0,
+            "duration": 40.3500000000003,
+            "termination_reason": "path_deviation",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_ippo/mixed_seed12_20261023_011124_000281/checkpoints/actor.pt",
+          "start_seconds": 86.30000000000001
+        },
+        {
+          "method": "IPPO",
+          "order": 8,
+          "formation": "triangle",
+          "path": "sine",
+          "case_id": "seen_triangle_sine_000",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 43.230000000000345,
+          "video_seconds": 44.233333333333334,
+          "frames": 1327,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "9f616c8838d6a710d3184648e008c50bd17caf627e436ea1b4809d92a5a3e435",
+          "configuration_sha256": "a40ff505c23c575fbb62164f9e247bd18c825058fc9f562ae57b9c27fd0b716c",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "sine",
+            "case_id": "seen_triangle_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ],
+              [
+                1.1691299432956284,
+                1.1915052278172449,
+                0.051141925056407925
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 433,
+            "env_return": 34.16067471579293,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.015583455211953819,
+            "attachment_max": 0.04720818993099355,
+            "path_rmse": 0.26921303756423287,
+            "path_max": 0.6347671829115825,
+            "heading_rmse": 0.44208078706443116,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 43.230000000000345,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_ippo/mixed_seed12_20261023_011124_000281/checkpoints/actor.pt",
+          "start_seconds": 129.66666666666669
+        },
+        {
+          "method": "IPPO",
+          "order": 9,
+          "formation": "square",
+          "path": "sine",
+          "case_id": "seen_square_sine_004",
+          "training_seed": 12,
+          "termination_reason": "coordination",
+          "episode_seconds": 32.250000000000185,
+          "video_seconds": 35.266666666666666,
+          "frames": 1058,
+          "matched_across_methods": false,
+          "label": "FAILED: Coordination error limit exceeded",
+          "checkpoint_sha256": "9f616c8838d6a710d3184648e008c50bd17caf627e436ea1b4809d92a5a3e435",
+          "configuration_sha256": "a40ff505c23c575fbb62164f9e247bd18c825058fc9f562ae57b9c27fd0b716c",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "sine",
+            "case_id": "seen_square_sine_004",
+            "repeat_index": 4,
+            "episode_seed": 2103375305,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.199921977498784,
+                1.1366824034017926,
+                0.04624071846854538
+              ],
+              [
+                1.2723554705033946,
+                1.1088004289603115,
+                0.042095706735999154
+              ],
+              [
+                1.1259327953622802,
+                0.8746177823130733,
+                0.0261333021325622
+              ],
+              [
+                1.236036421586888,
+                1.0824502873583517,
+                0.03214697184864583
+              ]
+            ],
+            "initial_lateral_offset": 0.04998535486583594,
+            "initial_heading_offset": 0.04060377322867274
+          },
+          "metrics": {
+            "episode_steps": 323,
+            "env_return": -34.9565922993351,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.018049799231595234,
+            "attachment_max": 0.10028492899992832,
+            "path_rmse": 0.3066238486066937,
+            "path_max": 0.4894290104123664,
+            "heading_rmse": 0.18725009665124037,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 1,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 32.250000000000185,
+            "termination_reason": "coordination",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_ippo/mixed_seed12_20261023_011124_000281/checkpoints/actor.pt",
+          "start_seconds": 173.90000000000003
+        }
+      ]
+    },
+    {
+      "method": "MADDPG",
+      "src": "maddpg.mp4",
+      "duration_seconds": 72.13333333333334,
+      "chapters": [
+        {
+          "method": "MADDPG",
+          "order": 1,
+          "formation": "bar",
+          "path": "line",
+          "case_id": "seen_bar_line_000",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 5.339999999999997,
+          "video_seconds": 6.366666666666666,
+          "frames": 191,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "6b007d9257dcd525897e2ecaa2953b1f687dd932e94c76e4c73d7111f3e210a6",
+          "configuration_sha256": "7dda7b2844fd27aa84e6b76d29f3a4647e6365d0cb98198be26722959b0e0fae",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "line",
+            "case_id": "seen_bar_line_000",
+            "repeat_index": 0,
+            "episode_seed": 608655814,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2571795211195602,
+                0.9534984227719483,
+                0.07846069989172699
+              ],
+              [
+                1.2828499395014459,
+                1.195773723454384,
+                0.058079464272331266
+              ]
+            ],
+            "initial_lateral_offset": 0.13967179467386964,
+            "initial_heading_offset": -0.0777734394815477
+          },
+          "metrics": {
+            "episode_steps": 54,
+            "env_return": 37.286602263884205,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.06981414639976949,
+            "attachment_max": 0.08788132576461516,
+            "path_rmse": 0.08352858558583962,
+            "path_max": 0.15030372903431832,
+            "heading_rmse": 0.42672646308703455,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 5.339999999999997,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_maddpg/mixed_seed12_20261023_002807_228426/checkpoints/actor.pt",
+          "start_seconds": 0.0
+        },
+        {
+          "method": "MADDPG",
+          "order": 2,
+          "formation": "triangle",
+          "path": "line",
+          "case_id": "seen_triangle_line_002",
+          "training_seed": 12,
+          "termination_reason": "coordination",
+          "episode_seconds": 1.7100000000000004,
+          "video_seconds": 4.733333333333333,
+          "frames": 142,
+          "matched_across_methods": true,
+          "label": "FAILED: Coordination error limit exceeded",
+          "checkpoint_sha256": "6b007d9257dcd525897e2ecaa2953b1f687dd932e94c76e4c73d7111f3e210a6",
+          "configuration_sha256": "7dda7b2844fd27aa84e6b76d29f3a4647e6365d0cb98198be26722959b0e0fae",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "line",
+            "case_id": "seen_triangle_line_002",
+            "repeat_index": 2,
+            "episode_seed": 546929650,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.053729132446324,
+                1.0726104153492475,
+                0.027726414026204443
+              ],
+              [
+                0.9271942102794974,
+                0.814318763743419,
+                0.042337291016086104
+              ],
+              [
+                1.1397394616690877,
+                0.9936911227942825,
+                0.05054241224006974
+              ]
+            ],
+            "initial_lateral_offset": 0.179420642897056,
+            "initial_heading_offset": 0.04585097353858257
+          },
+          "metrics": {
+            "episode_steps": 18,
+            "env_return": -16.12489627759188,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.056518572092192056,
+            "attachment_max": 0.10087833272468084,
+            "path_rmse": 0.2970282929642066,
+            "path_max": 0.3652327526004877,
+            "heading_rmse": 0.04832180328939573,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 1,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 1.7100000000000004,
+            "termination_reason": "coordination",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_maddpg/mixed_seed12_20261023_002807_228426/checkpoints/actor.pt",
+          "start_seconds": 6.366666666666666
+        },
+        {
+          "method": "MADDPG",
+          "order": 3,
+          "formation": "square",
+          "path": "line",
+          "case_id": "seen_square_line_000",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 5.449999999999997,
+          "video_seconds": 6.466666666666667,
+          "frames": 194,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "6b007d9257dcd525897e2ecaa2953b1f687dd932e94c76e4c73d7111f3e210a6",
+          "configuration_sha256": "7dda7b2844fd27aa84e6b76d29f3a4647e6365d0cb98198be26722959b0e0fae",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "line",
+            "case_id": "seen_square_line_000",
+            "repeat_index": 0,
+            "episode_seed": 608655814,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2571795211195602,
+                0.9534984227719483,
+                0.07846069989172699
+              ],
+              [
+                1.2828499395014459,
+                1.195773723454384,
+                0.058079464272331266
+              ],
+              [
+                0.7688794660699318,
+                0.9396050244189869,
+                0.039588224562397065
+              ],
+              [
+                1.0466594060445231,
+                1.0649583237502669,
+                0.06997101589671448
+              ]
+            ],
+            "initial_lateral_offset": 0.13967179467386964,
+            "initial_heading_offset": -0.0777734394815477
+          },
+          "metrics": {
+            "episode_steps": 55,
+            "env_return": 37.89836347297661,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.034644142398287954,
+            "attachment_max": 0.08494389035065018,
+            "path_rmse": 0.11128786549885704,
+            "path_max": 0.19437829257915368,
+            "heading_rmse": 0.19346322283692827,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 5.449999999999997,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_maddpg/mixed_seed12_20261023_002807_228426/checkpoints/actor.pt",
+          "start_seconds": 11.1
+        },
+        {
+          "method": "MADDPG",
+          "order": 4,
+          "formation": "bar",
+          "path": "left_turn",
+          "case_id": "seen_bar_left_turn_000",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 8.189999999999987,
+          "video_seconds": 9.2,
+          "frames": 276,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "6b007d9257dcd525897e2ecaa2953b1f687dd932e94c76e4c73d7111f3e210a6",
+          "configuration_sha256": "7dda7b2844fd27aa84e6b76d29f3a4647e6365d0cb98198be26722959b0e0fae",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "left_turn",
+            "case_id": "seen_bar_left_turn_000",
+            "repeat_index": 0,
+            "episode_seed": 1502491384,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1280685825624093,
+                1.0328321661724822,
+                0.0711395330832598
+              ],
+              [
+                1.1345181511262021,
+                0.8500968215869091,
+                0.07621381631971243
+              ]
+            ],
+            "initial_lateral_offset": -0.1883385419889636,
+            "initial_heading_offset": -0.013134149708516549
+          },
+          "metrics": {
+            "episode_steps": 82,
+            "env_return": 31.699250545718474,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.043259547091001736,
+            "attachment_max": 0.07863012083014678,
+            "path_rmse": 0.2792504391679911,
+            "path_max": 0.5656573399535212,
+            "heading_rmse": 0.8811082324364338,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 8.189999999999987,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_maddpg/mixed_seed12_20261023_002807_228426/checkpoints/actor.pt",
+          "start_seconds": 17.566666666666666
+        },
+        {
+          "method": "MADDPG",
+          "order": 5,
+          "formation": "triangle",
+          "path": "left_turn",
+          "case_id": "seen_triangle_left_turn_001",
+          "training_seed": 12,
+          "termination_reason": "path_deviation",
+          "episode_seconds": 6.619999999999992,
+          "video_seconds": 9.633333333333333,
+          "frames": 289,
+          "matched_across_methods": false,
+          "label": "FAILED: Path deviation limit exceeded",
+          "checkpoint_sha256": "6b007d9257dcd525897e2ecaa2953b1f687dd932e94c76e4c73d7111f3e210a6",
+          "configuration_sha256": "7dda7b2844fd27aa84e6b76d29f3a4647e6365d0cb98198be26722959b0e0fae",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "left_turn",
+            "case_id": "seen_triangle_left_turn_001",
+            "repeat_index": 1,
+            "episode_seed": 628416114,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.0571938561856342,
+                0.8179137586741152,
+                0.03874609316251229
+              ],
+              [
+                0.9479775906458405,
+                1.12203123072592,
+                0.06798885192106306
+              ],
+              [
+                1.0153249458806037,
+                1.193218250984668,
+                0.04905793722605794
+              ]
+            ],
+            "initial_lateral_offset": 0.005828369335828032,
+            "initial_heading_offset": 0.058778702806679586
+          },
+          "metrics": {
+            "episode_steps": 67,
+            "env_return": -4.679278095903621,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.03714076604016501,
+            "attachment_max": 0.07919226676949762,
+            "path_rmse": 0.4179124173588602,
+            "path_max": 1.0157874302861813,
+            "heading_rmse": 0.44433023385032294,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 1,
+            "no_forward_reference": 0,
+            "tracking_failure": 1,
+            "numerical_failure": 0,
+            "duration": 6.619999999999992,
+            "termination_reason": "path_deviation",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_maddpg/mixed_seed12_20261023_002807_228426/checkpoints/actor.pt",
+          "start_seconds": 26.766666666666666
+        },
+        {
+          "method": "MADDPG",
+          "order": 6,
+          "formation": "square",
+          "path": "left_turn",
+          "case_id": "seen_square_left_turn_009",
+          "training_seed": 12,
+          "termination_reason": "coordination",
+          "episode_seconds": 0.76,
+          "video_seconds": 3.7666666666666666,
+          "frames": 113,
+          "matched_across_methods": false,
+          "label": "FAILED: Coordination error limit exceeded",
+          "checkpoint_sha256": "6b007d9257dcd525897e2ecaa2953b1f687dd932e94c76e4c73d7111f3e210a6",
+          "configuration_sha256": "7dda7b2844fd27aa84e6b76d29f3a4647e6365d0cb98198be26722959b0e0fae",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "left_turn",
+            "case_id": "seen_square_left_turn_009",
+            "repeat_index": 9,
+            "episode_seed": 3870659537,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2003948683210488,
+                0.9792893922050299,
+                0.0569283325695113
+              ],
+              [
+                1.1812362425384983,
+                1.078579836126047,
+                0.0781555838143708
+              ],
+              [
+                1.1994019790759773,
+                1.107050797338132,
+                0.06397059782736055
+              ],
+              [
+                0.7004748703613675,
+                1.1214849741489195,
+                0.07452652134862606
+              ]
+            ],
+            "initial_lateral_offset": 0.13431605435318744,
+            "initial_heading_offset": -0.03509586434706701
+          },
+          "metrics": {
+            "episode_steps": 8,
+            "env_return": -18.41578201025208,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.04636115466532207,
+            "attachment_max": 0.10099353549794682,
+            "path_rmse": 0.17005091240010514,
+            "path_max": 0.22574946369720755,
+            "heading_rmse": 0.04429323278691825,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 1,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 0.76,
+            "termination_reason": "coordination",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_maddpg/mixed_seed12_20261023_002807_228426/checkpoints/actor.pt",
+          "start_seconds": 36.4
+        },
+        {
+          "method": "MADDPG",
+          "order": 7,
+          "formation": "bar",
+          "path": "sine",
+          "case_id": "seen_bar_sine_000",
+          "training_seed": 12,
+          "termination_reason": "success",
+          "episode_seconds": 10.319999999999979,
+          "video_seconds": 11.333333333333334,
+          "frames": 340,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "6b007d9257dcd525897e2ecaa2953b1f687dd932e94c76e4c73d7111f3e210a6",
+          "configuration_sha256": "7dda7b2844fd27aa84e6b76d29f3a4647e6365d0cb98198be26722959b0e0fae",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "sine",
+            "case_id": "seen_bar_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 104,
+            "env_return": 46.48328219129847,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.06267812668784313,
+            "attachment_max": 0.09839779254534387,
+            "path_rmse": 0.38677859830443717,
+            "path_max": 0.7605409624218011,
+            "heading_rmse": 0.5383224224060231,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 10.319999999999979,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_maddpg/mixed_seed12_20261023_002807_228426/checkpoints/actor.pt",
+          "start_seconds": 40.166666666666664
+        },
+        {
+          "method": "MADDPG",
+          "order": 8,
+          "formation": "triangle",
+          "path": "sine",
+          "case_id": "seen_triangle_sine_000",
+          "training_seed": 12,
+          "termination_reason": "coordination",
+          "episode_seconds": 1.5800000000000003,
+          "video_seconds": 4.6,
+          "frames": 138,
+          "matched_across_methods": true,
+          "label": "FAILED: Coordination error limit exceeded",
+          "checkpoint_sha256": "6b007d9257dcd525897e2ecaa2953b1f687dd932e94c76e4c73d7111f3e210a6",
+          "configuration_sha256": "7dda7b2844fd27aa84e6b76d29f3a4647e6365d0cb98198be26722959b0e0fae",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "sine",
+            "case_id": "seen_triangle_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ],
+              [
+                1.1691299432956284,
+                1.1915052278172449,
+                0.051141925056407925
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 16,
+            "env_return": -16.239396316045237,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.0568999889027721,
+            "attachment_max": 0.10008429572463202,
+            "path_rmse": 0.21718422962592268,
+            "path_max": 0.24819518429729323,
+            "heading_rmse": 0.0726010642698801,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 1,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 1.5800000000000003,
+            "termination_reason": "coordination",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_maddpg/mixed_seed12_20261023_002807_228426/checkpoints/actor.pt",
+          "start_seconds": 51.5
+        },
+        {
+          "method": "MADDPG",
+          "order": 9,
+          "formation": "square",
+          "path": "sine",
+          "case_id": "seen_square_sine_000",
+          "training_seed": 12,
+          "termination_reason": "path_deviation",
+          "episode_seconds": 13.00999999999997,
+          "video_seconds": 16.033333333333335,
+          "frames": 481,
+          "matched_across_methods": false,
+          "label": "FAILED: Path deviation limit exceeded",
+          "checkpoint_sha256": "6b007d9257dcd525897e2ecaa2953b1f687dd932e94c76e4c73d7111f3e210a6",
+          "configuration_sha256": "7dda7b2844fd27aa84e6b76d29f3a4647e6365d0cb98198be26722959b0e0fae",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "sine",
+            "case_id": "seen_square_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ],
+              [
+                1.1691299432956284,
+                1.1915052278172449,
+                0.051141925056407925
+              ],
+              [
+                1.199791897348187,
+                0.8196318125998076,
+                0.044636406969891906
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 131,
+            "env_return": 9.991961471688683,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.04187201448716438,
+            "attachment_max": 0.09603136211963308,
+            "path_rmse": 0.2756230587599053,
+            "path_max": 1.008993920395763,
+            "heading_rmse": 0.3896582784466781,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 1,
+            "no_forward_reference": 0,
+            "tracking_failure": 1,
+            "numerical_failure": 0,
+            "duration": 13.00999999999997,
+            "termination_reason": "path_deviation",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_maddpg/mixed_seed12_20261023_002807_228426/checkpoints/actor.pt",
+          "start_seconds": 56.1
+        }
+      ]
+    },
+    {
+      "method": "MAPPO-Lag",
+      "src": "mappo-lag.mp4",
+      "duration_seconds": 123.8,
+      "chapters": [
+        {
+          "method": "MAPPO-Lag",
+          "order": 1,
+          "formation": "bar",
+          "path": "line",
+          "case_id": "seen_bar_line_000",
+          "training_seed": 11,
+          "termination_reason": "success",
+          "episode_seconds": 12.95999999999997,
+          "video_seconds": 13.966666666666667,
+          "frames": 419,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "4c95d6833e681a4cc84be7fed05a283d606841ca6a43e46788e228da1dac2963",
+          "configuration_sha256": "5fac90f2b65451e6d04779ffbe2c16cab2d0f6b66c67b30ab64fda5545c2d0c9",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "line",
+            "case_id": "seen_bar_line_000",
+            "repeat_index": 0,
+            "episode_seed": 608655814,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2571795211195602,
+                0.9534984227719483,
+                0.07846069989172699
+              ],
+              [
+                1.2828499395014459,
+                1.195773723454384,
+                0.058079464272331266
+              ]
+            ],
+            "initial_lateral_offset": 0.13967179467386964,
+            "initial_heading_offset": -0.0777734394815477
+          },
+          "metrics": {
+            "episode_steps": 130,
+            "env_return": 31.68394384330821,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.004059447509695696,
+            "attachment_max": 0.009182515106408726,
+            "path_rmse": 0.3610755927677364,
+            "path_max": 0.42332898987835377,
+            "heading_rmse": 0.01858201941070843,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 12.95999999999997,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_mappo_lag/mixed_seed11_20261022_232544_861974/checkpoints/actor.pt",
+          "start_seconds": 0.0
+        },
+        {
+          "method": "MAPPO-Lag",
+          "order": 2,
+          "formation": "triangle",
+          "path": "line",
+          "case_id": "seen_triangle_line_002",
+          "training_seed": 11,
+          "termination_reason": "success",
+          "episode_seconds": 15.71999999999996,
+          "video_seconds": 16.733333333333334,
+          "frames": 502,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "4c95d6833e681a4cc84be7fed05a283d606841ca6a43e46788e228da1dac2963",
+          "configuration_sha256": "5fac90f2b65451e6d04779ffbe2c16cab2d0f6b66c67b30ab64fda5545c2d0c9",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "line",
+            "case_id": "seen_triangle_line_002",
+            "repeat_index": 2,
+            "episode_seed": 546929650,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.053729132446324,
+                1.0726104153492475,
+                0.027726414026204443
+              ],
+              [
+                0.9271942102794974,
+                0.814318763743419,
+                0.042337291016086104
+              ],
+              [
+                1.1397394616690877,
+                0.9936911227942825,
+                0.05054241224006974
+              ]
+            ],
+            "initial_lateral_offset": 0.179420642897056,
+            "initial_heading_offset": 0.04585097353858257
+          },
+          "metrics": {
+            "episode_steps": 158,
+            "env_return": 27.16021473005561,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.011705830562639878,
+            "attachment_max": 0.03602186216244833,
+            "path_rmse": 0.4205007349049922,
+            "path_max": 0.5089392716415868,
+            "heading_rmse": 0.027591123856923097,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 15.71999999999996,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_mappo_lag/mixed_seed11_20261022_232544_861974/checkpoints/actor.pt",
+          "start_seconds": 13.966666666666667
+        },
+        {
+          "method": "MAPPO-Lag",
+          "order": 3,
+          "formation": "square",
+          "path": "line",
+          "case_id": "seen_square_line_000",
+          "training_seed": 11,
+          "termination_reason": "success",
+          "episode_seconds": 17.399999999999977,
+          "video_seconds": 18.4,
+          "frames": 552,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "4c95d6833e681a4cc84be7fed05a283d606841ca6a43e46788e228da1dac2963",
+          "configuration_sha256": "5fac90f2b65451e6d04779ffbe2c16cab2d0f6b66c67b30ab64fda5545c2d0c9",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "line",
+            "case_id": "seen_square_line_000",
+            "repeat_index": 0,
+            "episode_seed": 608655814,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2571795211195602,
+                0.9534984227719483,
+                0.07846069989172699
+              ],
+              [
+                1.2828499395014459,
+                1.195773723454384,
+                0.058079464272331266
+              ],
+              [
+                0.7688794660699318,
+                0.9396050244189869,
+                0.039588224562397065
+              ],
+              [
+                1.0466594060445231,
+                1.0649583237502669,
+                0.06997101589671448
+              ]
+            ],
+            "initial_lateral_offset": 0.13967179467386964,
+            "initial_heading_offset": -0.0777734394815477
+          },
+          "metrics": {
+            "episode_steps": 174,
+            "env_return": 21.5795204265479,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.01163396073909443,
+            "attachment_max": 0.045810728290965726,
+            "path_rmse": 0.4890001422689812,
+            "path_max": 0.5747696751639932,
+            "heading_rmse": 0.029840536889027977,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 17.399999999999977,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_mappo_lag/mixed_seed11_20261022_232544_861974/checkpoints/actor.pt",
+          "start_seconds": 30.700000000000003
+        },
+        {
+          "method": "MAPPO-Lag",
+          "order": 4,
+          "formation": "bar",
+          "path": "left_turn",
+          "case_id": "seen_bar_left_turn_000",
+          "training_seed": 11,
+          "termination_reason": "success",
+          "episode_seconds": 11.099999999999977,
+          "video_seconds": 12.1,
+          "frames": 363,
+          "matched_across_methods": true,
+          "label": "",
+          "checkpoint_sha256": "4c95d6833e681a4cc84be7fed05a283d606841ca6a43e46788e228da1dac2963",
+          "configuration_sha256": "5fac90f2b65451e6d04779ffbe2c16cab2d0f6b66c67b30ab64fda5545c2d0c9",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "left_turn",
+            "case_id": "seen_bar_left_turn_000",
+            "repeat_index": 0,
+            "episode_seed": 1502491384,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1280685825624093,
+                1.0328321661724822,
+                0.0711395330832598
+              ],
+              [
+                1.1345181511262021,
+                0.8500968215869091,
+                0.07621381631971243
+              ]
+            ],
+            "initial_lateral_offset": -0.1883385419889636,
+            "initial_heading_offset": -0.013134149708516549
+          },
+          "metrics": {
+            "episode_steps": 111,
+            "env_return": 26.69892446493334,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.010659669057906747,
+            "attachment_max": 0.054089380233760524,
+            "path_rmse": 0.5665929156654499,
+            "path_max": 0.842273769644049,
+            "heading_rmse": 0.03958559831943754,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 11.099999999999977,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_mappo_lag/mixed_seed11_20261022_232544_861974/checkpoints/actor.pt",
+          "start_seconds": 49.1
+        },
+        {
+          "method": "MAPPO-Lag",
+          "order": 5,
+          "formation": "triangle",
+          "path": "left_turn",
+          "case_id": "seen_triangle_left_turn_004",
+          "training_seed": 11,
+          "termination_reason": "path_deviation",
+          "episode_seconds": 12.859999999999971,
+          "video_seconds": 15.866666666666667,
+          "frames": 476,
+          "matched_across_methods": false,
+          "label": "FAILED: Path deviation limit exceeded",
+          "checkpoint_sha256": "4c95d6833e681a4cc84be7fed05a283d606841ca6a43e46788e228da1dac2963",
+          "configuration_sha256": "5fac90f2b65451e6d04779ffbe2c16cab2d0f6b66c67b30ab64fda5545c2d0c9",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "left_turn",
+            "case_id": "seen_triangle_left_turn_004",
+            "repeat_index": 4,
+            "episode_seed": 3402310813,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                0.798593946688659,
+                1.192048596843028,
+                0.05895649889695076
+              ],
+              [
+                0.7220085472921258,
+                1.1493505923917113,
+                0.06594184614166118
+              ],
+              [
+                0.9520671029757792,
+                1.0466558021281211,
+                0.022417951813743023
+              ]
+            ],
+            "initial_lateral_offset": 0.09348938076343871,
+            "initial_heading_offset": 0.01659110428714211
+          },
+          "metrics": {
+            "episode_steps": 129,
+            "env_return": -18.06680869821195,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.022445474723745036,
+            "attachment_max": 0.0717036873908583,
+            "path_rmse": 0.6104080535596336,
+            "path_max": 1.0011357562301786,
+            "heading_rmse": 0.0761487577583947,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 1,
+            "no_forward_reference": 0,
+            "tracking_failure": 1,
+            "numerical_failure": 0,
+            "duration": 12.859999999999971,
+            "termination_reason": "path_deviation",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_mappo_lag/mixed_seed11_20261022_232544_861974/checkpoints/actor.pt",
+          "start_seconds": 61.2
+        },
+        {
+          "method": "MAPPO-Lag",
+          "order": 6,
+          "formation": "square",
+          "path": "left_turn",
+          "case_id": "seen_square_left_turn_000",
+          "training_seed": 11,
+          "termination_reason": "success",
+          "episode_seconds": 13.799999999999967,
+          "video_seconds": 14.8,
+          "frames": 444,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "4c95d6833e681a4cc84be7fed05a283d606841ca6a43e46788e228da1dac2963",
+          "configuration_sha256": "5fac90f2b65451e6d04779ffbe2c16cab2d0f6b66c67b30ab64fda5545c2d0c9",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "left_turn",
+            "case_id": "seen_square_left_turn_000",
+            "repeat_index": 0,
+            "episode_seed": 1502491384,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.1280685825624093,
+                1.0328321661724822,
+                0.0711395330832598
+              ],
+              [
+                1.1345181511262021,
+                0.8500968215869091,
+                0.07621381631971243
+              ],
+              [
+                1.1886472173606308,
+                1.0789735836564396,
+                0.03730134297275095
+              ],
+              [
+                1.032819810170154,
+                0.9270847438203974,
+                0.02864552233722797
+              ]
+            ],
+            "initial_lateral_offset": -0.1883385419889636,
+            "initial_heading_offset": -0.013134149708516549
+          },
+          "metrics": {
+            "episode_steps": 138,
+            "env_return": 19.068529079908725,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.01890838396627825,
+            "attachment_max": 0.05100390018931517,
+            "path_rmse": 0.630413983662723,
+            "path_max": 0.8662639686314276,
+            "heading_rmse": 0.07081460248371857,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 13.799999999999967,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_mappo_lag/mixed_seed11_20261022_232544_861974/checkpoints/actor.pt",
+          "start_seconds": 77.06666666666666
+        },
+        {
+          "method": "MAPPO-Lag",
+          "order": 7,
+          "formation": "bar",
+          "path": "sine",
+          "case_id": "seen_bar_sine_000",
+          "training_seed": 11,
+          "termination_reason": "path_deviation",
+          "episode_seconds": 7.689999999999989,
+          "video_seconds": 10.7,
+          "frames": 321,
+          "matched_across_methods": false,
+          "label": "FAILED: Path deviation limit exceeded",
+          "checkpoint_sha256": "4c95d6833e681a4cc84be7fed05a283d606841ca6a43e46788e228da1dac2963",
+          "configuration_sha256": "5fac90f2b65451e6d04779ffbe2c16cab2d0f6b66c67b30ab64fda5545c2d0c9",
+          "case": {
+            "group": "seen",
+            "formation": "bar",
+            "n_agents": 2,
+            "path_type": "sine",
+            "case_id": "seen_bar_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 77,
+            "env_return": -14.24415315346382,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.0057036156172821885,
+            "attachment_max": 0.013019514050220586,
+            "path_rmse": 0.3592285953868816,
+            "path_max": 1.0027808632552837,
+            "heading_rmse": 0.0498459453626366,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 1,
+            "no_forward_reference": 0,
+            "tracking_failure": 1,
+            "numerical_failure": 0,
+            "duration": 7.689999999999989,
+            "termination_reason": "path_deviation",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_mappo_lag/mixed_seed11_20261022_232544_861974/checkpoints/actor.pt",
+          "start_seconds": 91.86666666666666
+        },
+        {
+          "method": "MAPPO-Lag",
+          "order": 8,
+          "formation": "triangle",
+          "path": "sine",
+          "case_id": "seen_triangle_sine_000",
+          "training_seed": 11,
+          "termination_reason": "path_deviation",
+          "episode_seconds": 8.869999999999985,
+          "video_seconds": 11.9,
+          "frames": 357,
+          "matched_across_methods": true,
+          "label": "FAILED: Path deviation limit exceeded",
+          "checkpoint_sha256": "4c95d6833e681a4cc84be7fed05a283d606841ca6a43e46788e228da1dac2963",
+          "configuration_sha256": "5fac90f2b65451e6d04779ffbe2c16cab2d0f6b66c67b30ab64fda5545c2d0c9",
+          "case": {
+            "group": "seen",
+            "formation": "triangle",
+            "n_agents": 3,
+            "path_type": "sine",
+            "case_id": "seen_triangle_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ],
+              [
+                1.1691299432956284,
+                1.1915052278172449,
+                0.051141925056407925
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 89,
+            "env_return": -17.11928440613177,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.014309666778607209,
+            "attachment_max": 0.03897070070486678,
+            "path_rmse": 0.4265755112045979,
+            "path_max": 1.0012755095669896,
+            "heading_rmse": 0.0318779191149355,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 1,
+            "no_forward_reference": 0,
+            "tracking_failure": 1,
+            "numerical_failure": 0,
+            "duration": 8.869999999999985,
+            "termination_reason": "path_deviation",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_mappo_lag/mixed_seed11_20261022_232544_861974/checkpoints/actor.pt",
+          "start_seconds": 102.56666666666666
+        },
+        {
+          "method": "MAPPO-Lag",
+          "order": 9,
+          "formation": "square",
+          "path": "sine",
+          "case_id": "seen_square_sine_000",
+          "training_seed": 11,
+          "termination_reason": "path_deviation",
+          "episode_seconds": 6.319999999999993,
+          "video_seconds": 9.333333333333334,
+          "frames": 280,
+          "matched_across_methods": false,
+          "label": "FAILED: Path deviation limit exceeded",
+          "checkpoint_sha256": "4c95d6833e681a4cc84be7fed05a283d606841ca6a43e46788e228da1dac2963",
+          "configuration_sha256": "5fac90f2b65451e6d04779ffbe2c16cab2d0f6b66c67b30ab64fda5545c2d0c9",
+          "case": {
+            "group": "seen",
+            "formation": "square",
+            "n_agents": 4,
+            "path_type": "sine",
+            "case_id": "seen_square_sine_000",
+            "repeat_index": 0,
+            "episode_seed": 1615876942,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.051502211154696,
+                1.013297222374901,
+                0.0426164004076117
+              ],
+              [
+                0.8898679293284482,
+                0.8450933751584816,
+                0.02752205305419856
+              ],
+              [
+                1.1691299432956284,
+                1.1915052278172449,
+                0.051141925056407925
+              ],
+              [
+                1.199791897348187,
+                0.8196318125998076,
+                0.044636406969891906
+              ]
+            ],
+            "initial_lateral_offset": 0.18511260014303604,
+            "initial_heading_offset": -0.07830699764870287
+          },
+          "metrics": {
+            "episode_steps": 64,
+            "env_return": -18.24198331504943,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.015447078129102189,
+            "attachment_max": 0.041954684637604316,
+            "path_rmse": 0.4786800392367617,
+            "path_max": 1.0011135478477542,
+            "heading_rmse": 0.0638703319527969,
+            "success": 0,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 1,
+            "no_forward_reference": 0,
+            "tracking_failure": 1,
+            "numerical_failure": 0,
+            "duration": 6.319999999999993,
+            "termination_reason": "path_deviation",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0,
+            "cbf_correction_max": 0.0
+          },
+          "source_checkpoint": "experiments/train_mappo_lag/mixed_seed11_20261022_232544_861974/checkpoints/actor.pt",
+          "start_seconds": 114.46666666666667
+        }
+      ]
+    }
+  ]
+}

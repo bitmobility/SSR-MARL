@@ -1,0 +1,9 @@
+robust = True
+nominal_coordination_gains = (1.0, 1.0)
+robust_coordination_gains = (4.0, 4.0)
+speed_margin = 0.2
+dob_gain = 1.0  # 1/s.
+error_bound = (0.7, 1.8)
+coordination_weight = 30.0
+coordination_kp = 1.0  # 1/s^2.
+coordination_kd = 2.0  # 1/s.

@@ -1,0 +1,119 @@
+env:
+  action_change_weight: 0.01
+  attachment_limit: 0.1
+  coordination_weight: 0.1
+  disturbance_enabled: true
+  dt: 0.1
+  failure_reward: -20.0
+  goal_heading_tolerance: 1.5707963267948966
+  goal_tolerance: 1.0
+  heading_weight: 2.0
+  initial_speed: 2.0
+  path_error_limit: 1.0
+  path_weight: 4.0
+  progress_weight: 1.0
+  substep: 0.01
+  success_reward: 20.0
+  time_limit: 120.0
+  time_weight: 0.05
+reference:
+  arc_radius: 8.0
+  generalization_turn_radius: 8.0
+  line_length: 20.0
+  lookahead_distance: 2.0
+  omega_entry_length: 4.0
+  origin:
+  - 0.0
+  - 0.0
+  path_only_preview_paths: []
+  sample_spacing: 0.05
+  sine_amplitude: 5.0
+  sine_periods: 1
+  sine_wavelength: 31.41592653589793
+  steering_utilization: 0.7
+  turn_entry_length: 5.0
+  turn_exit_length: 5.0
+  turn_span: 8.0
+  z_diagonal_length: 24.0
+  z_straight_length: 12.0
+disturbance:
+  acceleration_gain_range:
+  - 0.7
+  - 1.3
+  drag_range:
+  - 0.02
+  - 0.08
+  yaw_gain_range:
+  - 0.8
+  - 1.2
+proposed:
+  a_lr: 0.0003
+  actor_hidden_dim: 128
+  c_lr: 0.0003
+  clip_ratio: 0.2
+  critic_hidden_dim: 128
+  device: auto
+  entropy_coef: 0.01
+  gae_lambda: 0.95
+  gamma: 0.995
+  initial_log_std: -1.0
+  max_grad_norm: 0.5
+  minibatch_size: 256
+  ppo_epochs: 5
+  value_coef: 0.5
+safety:
+  coordination_kd: 2.0
+  coordination_kp: 1.0
+  coordination_weight: 30.0
+  dob_gain: 1.0
+  error_bound:
+  - 0.7
+  - 1.8
+  nominal_coordination_gains:
+  - 1.0
+  - 1.0
+  robust: true
+  robust_coordination_gains:
+  - 4.0
+  - 4.0
+  speed_margin: 0.2
+train:
+  cbf_reward_sigma: 0.4
+  cbf_reward_weight: 0.03
+  experiment_name: train_proposed
+  num_envs: 8
+  outcome_window: 50
+  output_dir: runs
+  render: false
+  rollout_steps: 128
+  seed: 13
+  seeds:
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  swanlab_enabled: true
+  swanlab_project: SRMARL
+  total_steps: 1200000
+sampling:
+  time_limits:
+    left_turn: 120.0
+    line: 120.0
+    sine: 180.0
+  initial_lateral_range:
+  - -0.2
+  - 0.2
+  initial_heading_range:
+  - -0.08726646259971647
+  - 0.08726646259971647
+  episode_seed_rule: SeedSequence(seed+env_id, spawn_key=(4,env_id,episode_index));
+    disturbance/initial_pose streams=2/3; balanced combination queue=make_rng(seed,7)
+  formations:
+  - bar
+  - triangle
+  - square
+  path_types:
+  - line
+  - left_turn
+  - sine

@@ -1,0 +1,17 @@
+dt = 0.1
+substep = 0.01
+time_limit = 120.0
+initial_speed = 2.0
+attachment_limit = 0.1
+path_error_limit = 1.0
+goal_tolerance = 1.0
+goal_heading_tolerance = 1.5707963267948966
+disturbance_enabled = True
+progress_weight = 1.0
+path_weight = 4.0
+heading_weight = 2.0
+coordination_weight = 0.1
+time_weight = 0.05
+action_change_weight = 0.01
+success_reward = 20.0
+failure_reward = -20.0

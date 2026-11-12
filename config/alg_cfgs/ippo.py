@@ -1,0 +1,15 @@
+lstm_hidden_dim = 64
+lstm_num_layers = 2
+device = 'auto'
+initial_std = 0.13
+learn_std = False
+a_lr = 0.0003
+c_lr = 0.0003
+gamma = 0.995
+gae_lambda = 0.95
+clip_ratio = 0.2
+ppo_epochs = 5
+minibatch_episodes = 32
+entropy_coef = 0.01
+value_coef = 0.5
+max_grad_norm = 0.5

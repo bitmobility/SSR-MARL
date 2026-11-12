@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Safe Multi-Agent Reinforcement Learning for Robust and Scalable Multi-Vehicle Control in Cooperative Transportation Systems</title>
+  <meta name="description" content="Safe MARL for robust and scalable multi-vehicle collaborative control under model uncertainty, with a DOB-CBF safety filter and a shared policy reusable across CTS configurations.">
+  <meta property="og:title" content="Safe Multi-Agent Reinforcement Learning for Robust and Scalable Multi-Vehicle Control in Cooperative Transportation Systems">
+  <meta property="og:description" content="One shared policy. Coordinated transportation across vehicle counts, payload shapes, and model errors.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://bitmobility.github.io/SSR-MARL/assets/images/framework.png">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/config.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#abstract">Skip to content</a>
+  <main id="top">
+    <section class="publication-header" aria-labelledby="paper-title">
+      <div class="container">
+        <h1 id="paper-title">Safe Multi-Agent Reinforcement Learning for Robust and Scalable Multi-Vehicle Control in Cooperative Transportation Systems</h1>
+        <p class="authors"><a href="mailto:bitpang@bit.edu.cn">Hao Pang</a><span>, </span><a href="mailto:guoqiangli@bit.edu.cn">Guoqiang Li<sup>*</sup></a></p>
+        <p class="affiliation">School of Mechanical Engineering, Beijing Institute of Technology</p>
+        <p class="corresponding"><sup>*</sup>Corresponding author</p>
+        <div class="publication-links">
+          <a class="button" href="assets/paper/SSR-MARL.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H5v18h14V8zM14 3v5h5M8 13h8M8 17h6"/></svg>Paper</a>
+          <a class="button" id="code-link" hidden target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>Code</a>
+          <span class="button button-pending" id="code-pending" aria-label="Code coming soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>Code <small>coming soon</small></span>
+          <a class="button" href="#citation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4v6h5v4H5M20 7h-5v6h5v4h-4"/></svg>BibTeX</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section abstract-section" id="abstract" aria-labelledby="abstract-title">
+      <div class="container abstract-content">
+        <h2 id="abstract-title">Abstract</h2>
+        <p>Maintaining safe multi-vehicle coordination in cooperative transportation systems (CTS) is challenging under model errors and variations in vehicle count and payload configuration. In this paper, we propose a novel safe multi-agent reinforcement learning (MARL) framework for scalable multi-vehicle collaborative control in CTS under model uncertainty. Specifically, to improve the modeling accuracy of carrier vehicle dynamics, we develop a disturbance observer that estimates and compensates for model errors online. Based on these estimates, we construct a robust high-order control barrier function safety filter with active coordination to bound coordination errors and suppress their accumulation. Building on this filter, we propose a novel MARL algorithm that integrates it to learn a safe and scalable multi-vehicle collaborative control policy. The learned policy can be reused across CTS with different vehicle counts and payload configurations without retraining. Experiments show that our method reduces coordination error by 76.4% and tracking error by 62.2% compared with the best baseline. It also demonstrates superior robustness to model errors, achieving over 97% task success with coordination errors below 0.01 m across varying model error scales. The same policy achieves 100% task success in scalability tests across unseen CTS configurations.</p>
+      </div>
+    </section>
+
+    <section class="section" id="method" aria-labelledby="method-title">
+      <div class="container">
+        <h2 id="method-title">Framework</h2>
+        <figure class="paper-figure framework"><a href="assets/images/framework.png" data-zoom><img width="1993" height="1594" src="assets/images/framework.png" loading="lazy" alt="Safe MARL framework connecting disturbance-observer estimation, a robust CBF safety filter with active coordination, a shared actor and centralized critic, and the transportation simulation."></a><figcaption>DOB compensation improves carrier dynamics modeling. The safety filter corrects control actions, and its corrections guide policy learning through reward feedback.</figcaption></figure>
+        <div class="method-steps">
+          <article><span class="step-number">01</span><h3>Estimate model errors</h3><p>A disturbance observer estimates and compensates for acceleration and yaw-rate mismatches online to improve the modeling accuracy of carrier vehicle dynamics.</p></article>
+          <article><span class="step-number">02</span><h3>Filter and coordinate</h3><p>Robust high-order CBF constraints bound coordination errors. An active coordination objective reduces deviations within the safe set.</p></article>
+          <article><span class="step-number">03</span><h3>Learn a shared policy</h3><p>A shared actor and pooled critic features support different team sizes. The learned policy transfers across vehicle counts and payload configurations without retraining.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experiment" id="comparison" aria-labelledby="comparison-title">
+      <div class="container">
+        <h2 id="comparison-title">Experiment 1: Performance Comparison</h2>
+        <p class="experiment-description">We compare our method with IPPO, MADDPG, and MAPPO-Lag in cooperative transportation with two to four carriers. Tests cover linear, triangular, and square configurations along straight, left-turn, and sinusoidal paths.</p>
+        <div class="video-grid comparison-grid">
+          <article class="video-card featured" data-video="ours"><div class="video-header"><h3>Ours</h3></div><div class="video-stage"><div class="video-placeholder"><span class="media-label">SIMULATION</span><strong>Video coming soon</strong></div></div></article>
+          <article class="video-card" data-video="ippo"><div class="video-header"><h3>IPPO</h3></div><div class="video-stage"><div class="video-placeholder"><span class="media-label">SIMULATION</span><strong>Video coming soon</strong></div></div></article>
+          <article class="video-card" data-video="maddpg"><div class="video-header"><h3>MADDPG</h3></div><div class="video-stage"><div class="video-placeholder"><span class="media-label">SIMULATION</span><strong>Video coming soon</strong></div></div></article>
+          <article class="video-card" data-video="mappo-lag"><div class="video-header"><h3>MAPPO-Lag</h3></div><div class="video-stage"><div class="video-placeholder"><span class="media-label">SIMULATION</span><strong>Video coming soon</strong></div></div></article>
+        </div>
+        <p class="source-note">Each video shows straight, left-turn, and sinusoidal paths, with 2, 3, and 4 carriers in each group, at normal speed. These selected demonstrations show successful runs for Ours and mixed outcomes for the baselines; some test cases differ between methods. Failures are labeled at termination.</p>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Main test results; scroll horizontally on small screens"><table><caption>Test performance comparison · mean ± standard deviation</caption><thead><tr><th scope="col">Method</th><th scope="col">Return ↑</th><th scope="col">Success rate (%) ↑</th><th scope="col">Coordination error (cm) ↓</th><th scope="col">Tracking error (cm) ↓</th></tr></thead><tbody>
+          <tr><th scope="row">IPPO</th><td>14.48 <small>± 4.38</small></td><td>61.85 <small>± 5.25</small></td><td>1.57 <small>± 0.23</small></td><td>22.92 <small>± 2.62</small></td></tr>
+          <tr><th scope="row">MADDPG</th><td>24.68 <small>± 5.34</small></td><td>70.37 <small>± 12.88</small></td><td>3.88 <small>± 0.84</small></td><td>28.29 <small>± 0.49</small></td></tr>
+          <tr><th scope="row">MAPPO-Lag</th><td>29.55 <small>± 26.85</small></td><td>76.30 <small>± 29.13</small></td><td>2.03 <small>± 0.59</small></td><td>31.35 <small>± 14.78</small></td></tr>
+          <tr class="ours"><th scope="row">Ours</th><td>43.74 <small>± 0.13</small></td><td>100.00 <small>± 0.00</small></td><td>0.37 <small>± 0.05</small></td><td>8.66 <small>± 2.55</small></td></tr>
+        </tbody></table></div>
+        <p class="source-note">↑ Higher is better. ↓ Lower is better. Results are reported as mean ± standard deviation.</p>
+      </div>
+    </section>
+
+    <section class="section experiment" id="scalability" aria-labelledby="scalability-title">
+      <div class="container">
+        <h2 id="scalability-title">Experiment 2: Scalability of Our Method</h2>
+        <p class="experiment-description">Our method (Ours) reuses a single policy without retraining for rectangular payloads with four to six carriers and unseen pentagonal, T-shaped, and L-shaped payloads. Across all tested configurations on circular-arc, Z-shaped, and Ω-shaped paths, Ours achieves 100% task success with zero coordination violations.</p>
+        <div class="tab-list" role="tablist" aria-label="Scalability experiments" hidden>
+          <button type="button" role="tab" id="tab-counts" aria-controls="panel-counts" aria-selected="true">More carriers</button>
+          <button type="button" role="tab" id="tab-shapes" aria-controls="panel-shapes" aria-selected="false" tabindex="-1">Different payloads</button>
+        </div>
+        <section class="scale-panel" id="panel-counts" aria-labelledby="tab-counts">
+          <h3 class="panel-fallback">More carriers</h3>
+          <article class="video-card" data-video="vehicle-counts" data-video-label="Vehicle-count scalability demonstration"><div class="video-stage"><div class="video-placeholder"><span class="media-label">4 → 5 → 6 CARRIERS</span><strong>Video coming soon</strong></div></div></article>
+          <div class="configuration-grid">
+            <article><img width="574" height="324" src="assets/images/rectangle-4.png" loading="lazy" alt="Four carriers at the corners of a rectangular payload."><h3>4 carriers</h3><p>Rectangle</p><strong>100% success</strong><dl><div><dt>Coordination error</dt><dd>0.55 cm</dd></div><div><dt>Tracking error</dt><dd>11.46 cm</dd></div><div><dt>Time per step</dt><dd>1.591 ms</dd></div></dl></article>
+            <article><img width="574" height="324" src="assets/images/rectangle-5.png" loading="lazy" alt="Five carriers supporting a rectangular payload."><h3>5 carriers</h3><p>Rectangle</p><strong>100% success</strong><dl><div><dt>Coordination error</dt><dd>0.57 cm</dd></div><div><dt>Tracking error</dt><dd>13.98 cm</dd></div><div><dt>Time per step</dt><dd>1.652 ms</dd></div></dl></article>
+            <article><img width="574" height="327" src="assets/images/rectangle-6.png" loading="lazy" alt="Six carriers supporting a rectangular payload."><h3>6 carriers</h3><p>Rectangle</p><strong>100% success</strong><dl><div><dt>Coordination error</dt><dd>0.60 cm</dd></div><div><dt>Tracking error</dt><dd>17.53 cm</dd></div><div><dt>Time per step</dt><dd>1.715 ms</dd></div></dl></article>
+          </div>
+        </section>
+        <section class="scale-panel" id="panel-shapes" aria-labelledby="tab-shapes">
+          <h3 class="panel-fallback">Different payloads</h3>
+          <article class="video-card" data-video="payload-shapes" data-video-label="Payload-shape scalability demonstration"><div class="video-stage"><div class="video-placeholder"><span class="media-label">PENTAGON · T-SHAPE · L-SHAPE</span><strong>Video coming soon</strong></div></div></article>
+          <div class="configuration-grid">
+            <article><img width="498" height="467" src="assets/images/pentagon-5.png" loading="lazy" alt="Five carriers supporting a pentagonal payload."><h3>Pentagonal payload</h3><p>5 carriers</p><strong>100% success</strong><dl><div><dt>Coordination error</dt><dd>0.56 cm</dd></div><div><dt>Tracking error</dt><dd>14.81 cm</dd></div><div><dt>Time per step</dt><dd>1.685 ms</dd></div></dl></article>
+            <article><img width="569" height="468" src="assets/images/t-shape-3.png" loading="lazy" alt="Three carriers supporting a T-shaped payload."><h3>T-shaped payload</h3><p>3 carriers</p><strong>100% success</strong><dl><div><dt>Coordination error</dt><dd>0.51 cm</dd></div><div><dt>Tracking error</dt><dd>10.48 cm</dd></div><div><dt>Time per step</dt><dd>1.616 ms</dd></div></dl></article>
+            <article><img width="514" height="464" src="assets/images/l-shape-3.png" loading="lazy" alt="Three carriers supporting an L-shaped payload."><h3>L-shaped payload</h3><p>3 carriers</p><strong>100% success</strong><dl><div><dt>Coordination error</dt><dd>0.49 cm</dd></div><div><dt>Tracking error</dt><dd>11.37 cm</dd></div><div><dt>Time per step</dt><dd>1.614 ms</dd></div></dl></article>
+          </div>
+        </section>
+        <p class="source-note">Each video shows nine successful Ours runs at normal speed: circular-arc, Z-shaped, then Ω-shaped paths, with the three configurations shown below each video in order. All runs use the same policy without retraining.</p>
+        <p class="source-note">Configuration summaries show mean results. Full comparisons and standard deviations are provided in the paper.</p>
+      </div>
+    </section>
+
+    <section class="section citation-section" id="citation" aria-labelledby="citation-title">
+      <div class="container">
+        <div class="citation-heading"><div><h2 id="citation-title">BibTeX</h2></div><div class="citation-actions"><a href="assets/citation.bib" download>Download .bib ↓</a><button class="button button-outline" id="copy-citation" type="button" hidden>Copy BibTeX</button></div></div>
+        <pre><code id="bibtex">@misc{pang2026safemarl,
+  title = {Safe Multi-Agent Reinforcement Learning for Robust and Scalable
+           Multi-Vehicle Control in Cooperative Transportation Systems},
+  author = {Pang, Hao and Li, Guoqiang},
+  year = {2026},
+  note = {Manuscript},
+  url = {https://bitmobility.github.io/SSR-MARL/}
+}</code></pre>
+        <p id="copy-status" class="source-note" role="status" aria-live="polite"></p>
+        <p class="source-note">Manuscript citation. Publication details will be updated when available.</p>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container"><p>Safe MARL for Cooperative Transportation · Beijing Institute of Technology</p><p class="design-credit">Page design inspired by <a href="https://vision.huji.ac.il/probegen/" target="_blank" rel="noopener">ProbeGen</a> and LGDRL.</p></div></footer>
+  <dialog id="figure-dialog" aria-labelledby="figure-dialog-title"><div class="dialog-toolbar"><p id="figure-dialog-title">Figure preview</p><button type="button" id="close-figure" aria-label="Close figure preview">Close ×</button></div><img id="expanded-figure" alt=""><p id="figure-description"></p></dialog>
+</body>
+</html>

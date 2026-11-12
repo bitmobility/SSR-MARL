@@ -1,0 +1,1530 @@
+{
+  "description": "Ours-only successful demonstrations on unseen configurations and paths, without retraining.",
+  "playback_speed": 1,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "web_encoding": {
+    "codec": "H.264",
+    "max_bitrate_kbps": 1800
+  },
+  "success_hold_seconds": 1,
+  "videos": [
+    {
+      "group": "vehicle-counts",
+      "method": "Ours",
+      "src": "vehicle-counts.mp4",
+      "duration_seconds": 368.46666666666664,
+      "chapters": [
+        {
+          "method": "Ours",
+          "order": 1,
+          "formation": "rectangle_4",
+          "path": "arc",
+          "case_id": "rectangle_rectangle_4_arc_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 19.84000000000001,
+          "video_seconds": 20.866666666666667,
+          "frames": 626,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "rectangle",
+            "formation": "rectangle_4",
+            "n_agents": 4,
+            "path_type": "arc",
+            "case_id": "rectangle_rectangle_4_arc_000",
+            "repeat_index": 0,
+            "episode_seed": 2352158405,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.0647620021408615,
+                1.0211169266313112,
+                0.04122357385278239
+              ],
+              [
+                1.1898211814365105,
+                0.8340857435500605,
+                0.02214199867132205
+              ],
+              [
+                0.7474646907568375,
+                1.1634842378203314,
+                0.07163079993637786
+              ],
+              [
+                0.809220728464447,
+                1.07459491416002,
+                0.03837578555600564
+              ]
+            ],
+            "scenario": "rectangle_4",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.16281127632979547,
+            "initial_heading_offset": 0.02744724326525204
+          },
+          "metrics": {
+            "episode_steps": 199,
+            "env_return": 53.84504170992477,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.008034309092116838,
+            "attachment_max": 0.011092081244696359,
+            "path_rmse": 0.21774351211868748,
+            "path_max": 0.2236994428576886,
+            "heading_rmse": 0.3412372941254171,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 19.84000000000001,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.0069493289399979435,
+            "cbf_correction_max": 0.013963093813750875
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 0.0
+        },
+        {
+          "method": "Ours",
+          "order": 2,
+          "formation": "rectangle_5",
+          "path": "arc",
+          "case_id": "rectangle_rectangle_5_arc_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 19.660000000000007,
+          "video_seconds": 20.666666666666668,
+          "frames": 620,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "rectangle",
+            "formation": "rectangle_5",
+            "n_agents": 5,
+            "path_type": "arc",
+            "case_id": "rectangle_rectangle_5_arc_000",
+            "repeat_index": 0,
+            "episode_seed": 2352158405,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.0647620021408615,
+                1.0211169266313112,
+                0.04122357385278239
+              ],
+              [
+                1.1898211814365105,
+                0.8340857435500605,
+                0.02214199867132205
+              ],
+              [
+                0.7474646907568375,
+                1.1634842378203314,
+                0.07163079993637786
+              ],
+              [
+                0.809220728464447,
+                1.07459491416002,
+                0.03837578555600564
+              ],
+              [
+                1.2527543746616423,
+                0.9631725814291265,
+                0.07083774622534685
+              ]
+            ],
+            "scenario": "rectangle_5",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.16281127632979547,
+            "initial_heading_offset": 0.02744724326525204
+          },
+          "metrics": {
+            "episode_steps": 197,
+            "env_return": 49.01444654936141,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.00772986179119496,
+            "attachment_max": 0.011857333163514304,
+            "path_rmse": 0.31006111983308393,
+            "path_max": 0.32291476742715075,
+            "heading_rmse": 0.4162672875616989,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 19.660000000000007,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.010211178223252716,
+            "cbf_correction_max": 0.01097196182054665
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 20.866666666666667
+        },
+        {
+          "method": "Ours",
+          "order": 3,
+          "formation": "rectangle_6",
+          "path": "arc",
+          "case_id": "rectangle_rectangle_6_arc_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 20.070000000000014,
+          "video_seconds": 21.1,
+          "frames": 633,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "rectangle",
+            "formation": "rectangle_6",
+            "n_agents": 6,
+            "path_type": "arc",
+            "case_id": "rectangle_rectangle_6_arc_000",
+            "repeat_index": 0,
+            "episode_seed": 2352158405,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.0647620021408615,
+                1.0211169266313112,
+                0.04122357385278239
+              ],
+              [
+                1.1898211814365105,
+                0.8340857435500605,
+                0.02214199867132205
+              ],
+              [
+                0.7474646907568375,
+                1.1634842378203314,
+                0.07163079993637786
+              ],
+              [
+                0.809220728464447,
+                1.07459491416002,
+                0.03837578555600564
+              ],
+              [
+                1.2527543746616423,
+                0.9631725814291265,
+                0.07083774622534685
+              ],
+              [
+                0.9265766415548273,
+                0.9528788372616886,
+                0.055799979198944014
+              ]
+            ],
+            "scenario": "rectangle_6",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.16281127632979547,
+            "initial_heading_offset": 0.02744724326525204
+          },
+          "metrics": {
+            "episode_steps": 201,
+            "env_return": 41.85345035858447,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.007179562932522921,
+            "attachment_max": 0.012070486909430207,
+            "path_rmse": 0.4081401351302449,
+            "path_max": 0.42665942080664065,
+            "heading_rmse": 0.49005272308572795,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 20.070000000000014,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.011457047047691848,
+            "cbf_correction_max": 0.012409421927659146
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 41.53333333333333
+        },
+        {
+          "method": "Ours",
+          "order": 4,
+          "formation": "rectangle_4",
+          "path": "z",
+          "case_id": "rectangle_rectangle_4_z_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 47.1100000000004,
+          "video_seconds": 48.13333333333333,
+          "frames": 1444,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "rectangle",
+            "formation": "rectangle_4",
+            "n_agents": 4,
+            "path_type": "z",
+            "case_id": "rectangle_rectangle_4_z_000",
+            "repeat_index": 0,
+            "episode_seed": 1156023324,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                0.8479407879981476,
+                0.8968080250414605,
+                0.06872817952376609
+              ],
+              [
+                1.1669999070671924,
+                1.1436792854161977,
+                0.03252016288602947
+              ],
+              [
+                0.8398911148329756,
+                1.131385447538159,
+                0.07781102730982305
+              ],
+              [
+                0.9187085861036128,
+                1.1663816766574675,
+                0.04604665356610954
+              ]
+            ],
+            "scenario": "rectangle_4",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.13531629359529468,
+            "initial_heading_offset": -0.030210333386571822
+          },
+          "metrics": {
+            "episode_steps": 472,
+            "env_return": 106.08700274938751,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.004586934345764608,
+            "attachment_max": 0.010838748183306645,
+            "path_rmse": 0.13477993521878734,
+            "path_max": 0.22405086153540857,
+            "heading_rmse": 0.22018635911319853,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 47.1100000000004,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.005800800957906021,
+            "cbf_correction_max": 0.013764044932391244
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 55.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 62.63333333333333
+        },
+        {
+          "method": "Ours",
+          "order": 5,
+          "formation": "rectangle_5",
+          "path": "z",
+          "case_id": "rectangle_rectangle_5_z_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 46.16000000000039,
+          "video_seconds": 47.166666666666664,
+          "frames": 1415,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "rectangle",
+            "formation": "rectangle_5",
+            "n_agents": 5,
+            "path_type": "z",
+            "case_id": "rectangle_rectangle_5_z_000",
+            "repeat_index": 0,
+            "episode_seed": 1156023324,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                0.8479407879981476,
+                0.8968080250414605,
+                0.06872817952376609
+              ],
+              [
+                1.1669999070671924,
+                1.1436792854161977,
+                0.03252016288602947
+              ],
+              [
+                0.8398911148329756,
+                1.131385447538159,
+                0.07781102730982305
+              ],
+              [
+                0.9187085861036128,
+                1.1663816766574675,
+                0.04604665356610954
+              ],
+              [
+                1.05445972356579,
+                1.0460688168727805,
+                0.02579048407986128
+              ]
+            ],
+            "scenario": "rectangle_5",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.13531629359529468,
+            "initial_heading_offset": -0.030210333386571822
+          },
+          "metrics": {
+            "episode_steps": 462,
+            "env_return": 102.55474111905575,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.0059640771297522575,
+            "attachment_max": 0.013681387070058273,
+            "path_rmse": 0.18415003830152094,
+            "path_max": 0.33219192601975367,
+            "heading_rmse": 0.25670628594381883,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 46.16000000000039,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.005859175026497321,
+            "cbf_correction_max": 0.01713850656469263
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 55.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 110.76666666666667
+        },
+        {
+          "method": "Ours",
+          "order": 6,
+          "formation": "rectangle_6",
+          "path": "z",
+          "case_id": "rectangle_rectangle_6_z_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 46.49000000000039,
+          "video_seconds": 47.5,
+          "frames": 1425,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "rectangle",
+            "formation": "rectangle_6",
+            "n_agents": 6,
+            "path_type": "z",
+            "case_id": "rectangle_rectangle_6_z_000",
+            "repeat_index": 0,
+            "episode_seed": 1156023324,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                0.8479407879981476,
+                0.8968080250414605,
+                0.06872817952376609
+              ],
+              [
+                1.1669999070671924,
+                1.1436792854161977,
+                0.03252016288602947
+              ],
+              [
+                0.8398911148329756,
+                1.131385447538159,
+                0.07781102730982305
+              ],
+              [
+                0.9187085861036128,
+                1.1663816766574675,
+                0.04604665356610954
+              ],
+              [
+                1.05445972356579,
+                1.0460688168727805,
+                0.02579048407986128
+              ],
+              [
+                1.0317281340655513,
+                1.1376788921246825,
+                0.06880648270364893
+              ]
+            ],
+            "scenario": "rectangle_6",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.13531629359529468,
+            "initial_heading_offset": -0.030210333386571822
+          },
+          "metrics": {
+            "episode_steps": 465,
+            "env_return": 97.52362134499313,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.005304575754100983,
+            "attachment_max": 0.01352504295017006,
+            "path_rmse": 0.23818053698770283,
+            "path_max": 0.42990223830335617,
+            "heading_rmse": 0.28610956035108775,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 46.49000000000039,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.005682257061069016,
+            "cbf_correction_max": 0.016952954527186516
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 55.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 157.93333333333334
+        },
+        {
+          "method": "Ours",
+          "order": 7,
+          "formation": "rectangle_4",
+          "path": "omega",
+          "case_id": "rectangle_rectangle_4_omega_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 54.360000000000504,
+          "video_seconds": 55.36666666666667,
+          "frames": 1661,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "rectangle",
+            "formation": "rectangle_4",
+            "n_agents": 4,
+            "path_type": "omega",
+            "case_id": "rectangle_rectangle_4_omega_000",
+            "repeat_index": 0,
+            "episode_seed": 824913271,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2756867704112347,
+                1.0169774014451862,
+                0.05343288056667353
+              ],
+              [
+                0.7440003842403367,
+                0.9374999103341809,
+                0.05290363345452852
+              ],
+              [
+                1.2579019038958688,
+                0.9424681250804062,
+                0.05253217784011423
+              ],
+              [
+                0.9590008685831592,
+                0.9998159082580803,
+                0.07685730243953888
+              ]
+            ],
+            "scenario": "rectangle_4",
+            "time_limit": 180.0,
+            "initial_lateral_offset": -0.07505604620160461,
+            "initial_heading_offset": 0.005154560541612341
+          },
+          "metrics": {
+            "episode_steps": 544,
+            "env_return": 121.51164416804993,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.004709005648799464,
+            "attachment_max": 0.009708349742642267,
+            "path_rmse": 0.12629309132493505,
+            "path_max": 0.21253019791122435,
+            "heading_rmse": 0.2730002370856163,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 54.360000000000504,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.004923713908721341,
+            "cbf_correction_max": 0.01239011195346801
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 45.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 205.43333333333334
+        },
+        {
+          "method": "Ours",
+          "order": 8,
+          "formation": "rectangle_5",
+          "path": "omega",
+          "case_id": "rectangle_rectangle_5_omega_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 52.87000000000048,
+          "video_seconds": 53.9,
+          "frames": 1617,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "rectangle",
+            "formation": "rectangle_5",
+            "n_agents": 5,
+            "path_type": "omega",
+            "case_id": "rectangle_rectangle_5_omega_000",
+            "repeat_index": 0,
+            "episode_seed": 824913271,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2756867704112347,
+                1.0169774014451862,
+                0.05343288056667353
+              ],
+              [
+                0.7440003842403367,
+                0.9374999103341809,
+                0.05290363345452852
+              ],
+              [
+                1.2579019038958688,
+                0.9424681250804062,
+                0.05253217784011423
+              ],
+              [
+                0.9590008685831592,
+                0.9998159082580803,
+                0.07685730243953888
+              ],
+              [
+                0.8059851142796797,
+                0.9820802953070873,
+                0.028968401716289106
+              ]
+            ],
+            "scenario": "rectangle_5",
+            "time_limit": 180.0,
+            "initial_lateral_offset": -0.07505604620160461,
+            "initial_heading_offset": 0.005154560541612341
+          },
+          "metrics": {
+            "episode_steps": 529,
+            "env_return": 117.03911164704957,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.005628612817188894,
+            "attachment_max": 0.011042150290215302,
+            "path_rmse": 0.17992248413075054,
+            "path_max": 0.313230447730759,
+            "heading_rmse": 0.3151077211204933,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 52.87000000000048,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.006153740199469262,
+            "cbf_correction_max": 0.013937585627339896
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 45.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 260.8
+        },
+        {
+          "method": "Ours",
+          "order": 9,
+          "formation": "rectangle_6",
+          "path": "omega",
+          "case_id": "rectangle_rectangle_6_omega_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 52.74000000000048,
+          "video_seconds": 53.766666666666666,
+          "frames": 1613,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "rectangle",
+            "formation": "rectangle_6",
+            "n_agents": 6,
+            "path_type": "omega",
+            "case_id": "rectangle_rectangle_6_omega_000",
+            "repeat_index": 0,
+            "episode_seed": 824913271,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2756867704112347,
+                1.0169774014451862,
+                0.05343288056667353
+              ],
+              [
+                0.7440003842403367,
+                0.9374999103341809,
+                0.05290363345452852
+              ],
+              [
+                1.2579019038958688,
+                0.9424681250804062,
+                0.05253217784011423
+              ],
+              [
+                0.9590008685831592,
+                0.9998159082580803,
+                0.07685730243953888
+              ],
+              [
+                0.8059851142796797,
+                0.9820802953070873,
+                0.028968401716289106
+              ],
+              [
+                1.2270741483605638,
+                0.8498564583379118,
+                0.04363068848073633
+              ]
+            ],
+            "scenario": "rectangle_6",
+            "time_limit": 180.0,
+            "initial_lateral_offset": -0.07505604620160461,
+            "initial_heading_offset": 0.005154560541612341
+          },
+          "metrics": {
+            "episode_steps": 528,
+            "env_return": 110.25358724132028,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.006155451598494015,
+            "attachment_max": 0.013681407560432892,
+            "path_rmse": 0.2420015170068699,
+            "path_max": 0.4210972634571001,
+            "heading_rmse": 0.3534703535432809,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 52.74000000000048,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.006905107796487781,
+            "cbf_correction_max": 0.015870795656962956
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 45.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 314.7
+        }
+      ]
+    },
+    {
+      "group": "payload-shapes",
+      "method": "Ours",
+      "src": "payload-shapes.mp4",
+      "duration_seconds": 361.93333333333334,
+      "chapters": [
+        {
+          "method": "Ours",
+          "order": 1,
+          "formation": "pentagon_5",
+          "path": "arc",
+          "case_id": "shape_pentagon_5_arc_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 19.89000000000001,
+          "video_seconds": 20.9,
+          "frames": 627,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "shape",
+            "formation": "pentagon_5",
+            "n_agents": 5,
+            "path_type": "arc",
+            "case_id": "shape_pentagon_5_arc_000",
+            "repeat_index": 0,
+            "episode_seed": 2352158405,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.0647620021408615,
+                1.0211169266313112,
+                0.04122357385278239
+              ],
+              [
+                1.1898211814365105,
+                0.8340857435500605,
+                0.02214199867132205
+              ],
+              [
+                0.7474646907568375,
+                1.1634842378203314,
+                0.07163079993637786
+              ],
+              [
+                0.809220728464447,
+                1.07459491416002,
+                0.03837578555600564
+              ],
+              [
+                1.2527543746616423,
+                0.9631725814291265,
+                0.07083774622534685
+              ]
+            ],
+            "scenario": "pentagon_5",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.16281127632979547,
+            "initial_heading_offset": 0.02744724326525204
+          },
+          "metrics": {
+            "episode_steps": 199,
+            "env_return": 46.37837669469328,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.008209246727086526,
+            "attachment_max": 0.015907960662163313,
+            "path_rmse": 0.3414559611787117,
+            "path_max": 0.35795690093683824,
+            "heading_rmse": 0.4678144944236046,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 19.89000000000001,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.013439722215230397,
+            "cbf_correction_max": 0.014874343676928716
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 0.0
+        },
+        {
+          "method": "Ours",
+          "order": 2,
+          "formation": "t_3",
+          "path": "arc",
+          "case_id": "shape_t_3_arc_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 18.959999999999997,
+          "video_seconds": 19.966666666666665,
+          "frames": 599,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "shape",
+            "formation": "t_3",
+            "n_agents": 3,
+            "path_type": "arc",
+            "case_id": "shape_t_3_arc_000",
+            "repeat_index": 0,
+            "episode_seed": 2352158405,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.0647620021408615,
+                1.0211169266313112,
+                0.04122357385278239
+              ],
+              [
+                1.1898211814365105,
+                0.8340857435500605,
+                0.02214199867132205
+              ],
+              [
+                0.7474646907568375,
+                1.1634842378203314,
+                0.07163079993637786
+              ]
+            ],
+            "scenario": "t_3",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.16281127632979547,
+            "initial_heading_offset": 0.02744724326525204
+          },
+          "metrics": {
+            "episode_steps": 190,
+            "env_return": 47.92563154502716,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.008734830709066924,
+            "attachment_max": 0.01195011450889249,
+            "path_rmse": 0.29176382002223117,
+            "path_max": 0.3086919654123726,
+            "heading_rmse": 0.5495732739861713,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 18.959999999999997,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.015025766796160621,
+            "cbf_correction_max": 0.019008043020866738
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 20.9
+        },
+        {
+          "method": "Ours",
+          "order": 3,
+          "formation": "l_3",
+          "path": "arc",
+          "case_id": "shape_l_3_arc_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 19.570000000000007,
+          "video_seconds": 20.6,
+          "frames": 618,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "shape",
+            "formation": "l_3",
+            "n_agents": 3,
+            "path_type": "arc",
+            "case_id": "shape_l_3_arc_000",
+            "repeat_index": 0,
+            "episode_seed": 2352158405,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.0647620021408615,
+                1.0211169266313112,
+                0.04122357385278239
+              ],
+              [
+                1.1898211814365105,
+                0.8340857435500605,
+                0.02214199867132205
+              ],
+              [
+                0.7474646907568375,
+                1.1634842378203314,
+                0.07163079993637786
+              ]
+            ],
+            "scenario": "l_3",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.16281127632979547,
+            "initial_heading_offset": 0.02744724326525204
+          },
+          "metrics": {
+            "episode_steps": 196,
+            "env_return": 56.52337648784743,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.008747591931957137,
+            "attachment_max": 0.012677670226029418,
+            "path_rmse": 0.15843634440155446,
+            "path_max": 0.1757514579434774,
+            "heading_rmse": 0.2693536221267045,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 19.570000000000007,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.009046429443227573,
+            "cbf_correction_max": 0.011843471166467097
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "start_seconds": 40.86666666666666
+        },
+        {
+          "method": "Ours",
+          "order": 4,
+          "formation": "pentagon_5",
+          "path": "z",
+          "case_id": "shape_pentagon_5_z_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 45.360000000000376,
+          "video_seconds": 46.36666666666667,
+          "frames": 1391,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "shape",
+            "formation": "pentagon_5",
+            "n_agents": 5,
+            "path_type": "z",
+            "case_id": "shape_pentagon_5_z_000",
+            "repeat_index": 0,
+            "episode_seed": 1156023324,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                0.8479407879981476,
+                0.8968080250414605,
+                0.06872817952376609
+              ],
+              [
+                1.1669999070671924,
+                1.1436792854161977,
+                0.03252016288602947
+              ],
+              [
+                0.8398911148329756,
+                1.131385447538159,
+                0.07781102730982305
+              ],
+              [
+                0.9187085861036128,
+                1.1663816766574675,
+                0.04604665356610954
+              ],
+              [
+                1.05445972356579,
+                1.0460688168727805,
+                0.02579048407986128
+              ]
+            ],
+            "scenario": "pentagon_5",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.13531629359529468,
+            "initial_heading_offset": -0.030210333386571822
+          },
+          "metrics": {
+            "episode_steps": 454,
+            "env_return": 100.46709585776406,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.006811662924160778,
+            "attachment_max": 0.013778416311299228,
+            "path_rmse": 0.20296033451041123,
+            "path_max": 0.3653696336870686,
+            "heading_rmse": 0.2962780785430253,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 45.360000000000376,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.005931125818847167,
+            "cbf_correction_max": 0.011439288361449529
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 55.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 61.46666666666666
+        },
+        {
+          "method": "Ours",
+          "order": 5,
+          "formation": "t_3",
+          "path": "z",
+          "case_id": "shape_t_3_z_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 45.28000000000037,
+          "video_seconds": 46.3,
+          "frames": 1389,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "shape",
+            "formation": "t_3",
+            "n_agents": 3,
+            "path_type": "z",
+            "case_id": "shape_t_3_z_000",
+            "repeat_index": 0,
+            "episode_seed": 1156023324,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                0.8479407879981476,
+                0.8968080250414605,
+                0.06872817952376609
+              ],
+              [
+                1.1669999070671924,
+                1.1436792854161977,
+                0.03252016288602947
+              ],
+              [
+                0.8398911148329756,
+                1.131385447538159,
+                0.07781102730982305
+              ]
+            ],
+            "scenario": "t_3",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.13531629359529468,
+            "initial_heading_offset": -0.030210333386571822
+          },
+          "metrics": {
+            "episode_steps": 453,
+            "env_return": 105.3984967663585,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.005239057842602554,
+            "attachment_max": 0.011107384565913257,
+            "path_rmse": 0.1341298082055826,
+            "path_max": 0.2727037998037394,
+            "heading_rmse": 0.26811463193800344,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 45.28000000000037,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.008911368757133335,
+            "cbf_correction_max": 0.016600203352686697
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 55.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 107.83333333333333
+        },
+        {
+          "method": "Ours",
+          "order": 6,
+          "formation": "l_3",
+          "path": "z",
+          "case_id": "shape_l_3_z_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 46.61000000000039,
+          "video_seconds": 47.63333333333333,
+          "frames": 1429,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "shape",
+            "formation": "l_3",
+            "n_agents": 3,
+            "path_type": "z",
+            "case_id": "shape_l_3_z_000",
+            "repeat_index": 0,
+            "episode_seed": 1156023324,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                0.8479407879981476,
+                0.8968080250414605,
+                0.06872817952376609
+              ],
+              [
+                1.1669999070671924,
+                1.1436792854161977,
+                0.03252016288602947
+              ],
+              [
+                0.8398911148329756,
+                1.131385447538159,
+                0.07781102730982305
+              ]
+            ],
+            "scenario": "l_3",
+            "time_limit": 180.0,
+            "initial_lateral_offset": 0.13531629359529468,
+            "initial_heading_offset": -0.030210333386571822
+          },
+          "metrics": {
+            "episode_steps": 467,
+            "env_return": 105.57496119395611,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.004862655508391797,
+            "attachment_max": 0.014760980904241518,
+            "path_rmse": 0.09885984798637906,
+            "path_max": 0.15983769255847627,
+            "heading_rmse": 0.30976126651201147,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 46.61000000000039,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.004160817946326688,
+            "cbf_correction_max": 0.014804544265783058
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 55.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 154.13333333333333
+        },
+        {
+          "method": "Ours",
+          "order": 7,
+          "formation": "pentagon_5",
+          "path": "omega",
+          "case_id": "shape_pentagon_5_omega_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 52.650000000000475,
+          "video_seconds": 53.666666666666664,
+          "frames": 1610,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "shape",
+            "formation": "pentagon_5",
+            "n_agents": 5,
+            "path_type": "omega",
+            "case_id": "shape_pentagon_5_omega_000",
+            "repeat_index": 0,
+            "episode_seed": 824913271,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2756867704112347,
+                1.0169774014451862,
+                0.05343288056667353
+              ],
+              [
+                0.7440003842403367,
+                0.9374999103341809,
+                0.05290363345452852
+              ],
+              [
+                1.2579019038958688,
+                0.9424681250804062,
+                0.05253217784011423
+              ],
+              [
+                0.9590008685831592,
+                0.9998159082580803,
+                0.07685730243953888
+              ],
+              [
+                0.8059851142796797,
+                0.9820802953070873,
+                0.028968401716289106
+              ]
+            ],
+            "scenario": "pentagon_5",
+            "time_limit": 180.0,
+            "initial_lateral_offset": -0.07505604620160461,
+            "initial_heading_offset": 0.005154560541612341
+          },
+          "metrics": {
+            "episode_steps": 527,
+            "env_return": 114.96002446297129,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.00336656335652812,
+            "attachment_max": 0.006936885165592621,
+            "path_rmse": 0.19929645714145722,
+            "path_max": 0.33932747240219574,
+            "heading_rmse": 0.3335530693771251,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 52.650000000000475,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.004290197203369119,
+            "cbf_correction_max": 0.010448345155497262
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 45.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 201.76666666666665
+        },
+        {
+          "method": "Ours",
+          "order": 8,
+          "formation": "t_3",
+          "path": "omega",
+          "case_id": "shape_t_3_omega_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 51.26000000000046,
+          "video_seconds": 52.266666666666666,
+          "frames": 1568,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "shape",
+            "formation": "t_3",
+            "n_agents": 3,
+            "path_type": "omega",
+            "case_id": "shape_t_3_omega_000",
+            "repeat_index": 0,
+            "episode_seed": 824913271,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2756867704112347,
+                1.0169774014451862,
+                0.05343288056667353
+              ],
+              [
+                0.7440003842403367,
+                0.9374999103341809,
+                0.05290363345452852
+              ],
+              [
+                1.2579019038958688,
+                0.9424681250804062,
+                0.05253217784011423
+              ]
+            ],
+            "scenario": "t_3",
+            "time_limit": 180.0,
+            "initial_lateral_offset": -0.07505604620160461,
+            "initial_heading_offset": 0.005154560541612341
+          },
+          "metrics": {
+            "episode_steps": 513,
+            "env_return": 119.78370360889969,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.002420350049611034,
+            "attachment_max": 0.006064484686260186,
+            "path_rmse": 0.13764330992631144,
+            "path_max": 0.2537464461701101,
+            "heading_rmse": 0.32950100565990464,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 51.26000000000046,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.006984848386613666,
+            "cbf_correction_max": 0.01839685422957495
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 45.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 255.4333333333333
+        },
+        {
+          "method": "Ours",
+          "order": 9,
+          "formation": "l_3",
+          "path": "omega",
+          "case_id": "shape_l_3_omega_000",
+          "training_seed": 13,
+          "termination_reason": "success",
+          "episode_seconds": 53.200000000000486,
+          "video_seconds": 54.233333333333334,
+          "frames": 1627,
+          "matched_across_methods": false,
+          "label": "",
+          "checkpoint_sha256": "85f178b6d6a29566f72fb81b12ea4b4ce3b97ddd3544bffcb90fcf63fe895b40",
+          "configuration_sha256": "90d2a253d110be374cd3fde1e131e84a2bf69718dfeca25d6170fd13e633b431",
+          "case": {
+            "group": "shape",
+            "formation": "l_3",
+            "n_agents": 3,
+            "path_type": "omega",
+            "case_id": "shape_l_3_omega_000",
+            "repeat_index": 0,
+            "episode_seed": 824913271,
+            "disturbance_scale": 1.0,
+            "disturbance_parameters": [
+              [
+                1.2756867704112347,
+                1.0169774014451862,
+                0.05343288056667353
+              ],
+              [
+                0.7440003842403367,
+                0.9374999103341809,
+                0.05290363345452852
+              ],
+              [
+                1.2579019038958688,
+                0.9424681250804062,
+                0.05253217784011423
+              ]
+            ],
+            "scenario": "l_3",
+            "time_limit": 180.0,
+            "initial_lateral_offset": -0.07505604620160461,
+            "initial_heading_offset": 0.005154560541612341
+          },
+          "metrics": {
+            "episode_steps": 532,
+            "env_return": 121.22422334491787,
+            "cbf_return": 0.0,
+            "attachment_mean": 0.0034800608961576256,
+            "attachment_max": 0.008465530695878229,
+            "path_rmse": 0.09070953891828683,
+            "path_max": 0.15531144998244825,
+            "heading_rmse": 0.34113435580822743,
+            "success": 1,
+            "collision": 0,
+            "coordination_violation": 0,
+            "path_deviation": 0,
+            "no_forward_reference": 0,
+            "tracking_failure": 0,
+            "numerical_failure": 0,
+            "duration": 53.200000000000486,
+            "termination_reason": "success",
+            "qp_failures": 0,
+            "qp_failure_statuses": "",
+            "cbf_correction_mean": 0.006311653816947788,
+            "cbf_correction_max": 0.01207854860755684
+          },
+          "source_checkpoint": "experiments/train_proposed/mixed_seed13_20261023_021934_179123/checkpoints/actor.pt",
+          "camera": {
+            "mode": "payload_follow",
+            "distance": 45.0,
+            "smoothing_seconds": 0.3,
+            "azimuth": 90,
+            "elevation": -65
+          },
+          "start_seconds": 307.7
+        }
+      ]
+    }
+  ]
+}

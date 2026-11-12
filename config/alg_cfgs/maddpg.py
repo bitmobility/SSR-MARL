@@ -1,0 +1,11 @@
+actor_hidden_dim = 128
+critic_hidden_dim = 128
+device = 'auto'
+a_lr = 0.0003
+c_lr = 0.001
+gamma = 0.995
+tau = 0.005  # target <- (1-tau) * target + tau * online.
+max_grad_norm = 0.5
+action_l2 = 0.001
+batch_size = 256
+replay_capacity = 300000

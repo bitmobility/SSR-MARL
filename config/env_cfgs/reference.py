@@ -1,0 +1,17 @@
+origin = (0.0, 0.0)
+sample_spacing = 0.05
+lookahead_distance = 2.0
+path_only_preview_paths = ()
+steering_utilization = 0.7
+line_length = 20.0
+turn_entry_length = 5.0
+turn_span = 8.0
+turn_exit_length = 5.0
+sine_amplitude = 5.0
+sine_wavelength = 31.41592653589793
+sine_periods = 1
+arc_radius = 8.0
+generalization_turn_radius = 8.0
+omega_entry_length = 4.0
+z_straight_length = 12.0
+z_diagonal_length = 24.0
