@@ -8,13 +8,10 @@
       return ["http:", "https:", "file:"].includes(url.protocol) ? url.href : "";
     } catch { return ""; }
   };
+
+  const codeLink = document.getElementById("code-link");
   const codeURL = safeURL(config.codeUrl);
-  if (codeURL) {
-    const link = document.getElementById("code-link");
-    link.href = codeURL;
-    link.hidden = false;
-    document.getElementById("code-pending").hidden = true;
-  }
+  if (codeLink && codeURL) codeLink.href = codeURL;
 
   // Lazy metadata loading keeps the page light; missing recordings retain
   // their editorial placeholders. Adding a video requires no HTML changes.

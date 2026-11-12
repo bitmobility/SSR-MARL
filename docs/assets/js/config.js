@@ -5,7 +5,7 @@
 // Current page: four comparison videos + two tab-dependent scalability videos.
 // overview, robustness, and ablation are retained for later use, not displayed.
 window.PROJECT_CONFIG = {
-  codeUrl: "https://github.com/bitmobility/SSR-MARL", // Set the public repository URL when it is ready.
+  codeUrl: "https://github.com/bitmobility/SSR-MARL",
   videos: {
     overview: { src: "assets/videos/overview/overview.mp4", poster: "" },
     ours: { src: "assets/videos/comparison/ssr-marl.mp4", poster: "assets/videos/comparison/ssr-marl.jpg" },
