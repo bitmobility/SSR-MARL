@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Website
 
 Static HTML, CSS and JavaScript. Open `index.html` or serve this directory:
@@ -24,3 +25,6 @@ Publish this directory's contents. Set the Code link in `assets/js/config.js` an
 - `assets/citation.bib`: anonymous citation.
 - `assets/paper/SSR-MARL-v2.pdf`: supplied paper version without author information.
 
+=======
+this is a github page
+>>>>>>> befdbf7bdc250b8f20a0639fdac5f50638fa4bbd
